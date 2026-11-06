@@ -18,16 +18,16 @@ All bots report to Grook, the user's single front door.
 
 | Bot | One job | Registered routines | Status |
 |---|---|---|---|
-| [Grook](grook.md) | Routes each ask to its owner, checks work, gives one stream | weekday brief 08:00, Sunday cleanup 10:00, weekend review 20:30 | Active |
-| [Dr Egghead](dr-egghead.md) | Designs and reviews bots | daily bot review 10:45, weekly routine check Mon 09:05 | Active |
-| [Schedule](schedule.md) | Calendar upkeep and planned-vs-actual coaching | actuals 09:30 and retry 12:40, check 21:15, screens-off 22:45 | Active |
-| [Career](career.md) | Applications, documents, upskilling | email scan weekdays 07:00 and 17:00, metrics Sunday 16:00 | Active |
-| [Sales](sales.md) | Independent business, lead to paid work | lead scan Monday 06:20, lesson Saturday 09:00 | Active, outreach on hold |
-| [Parenting](parenting.md) | Household logistics and reminders | five, see its file | Active |
-| [Persona](persona.md) | The user's writing voice and humanizing drafts | weekly shipped-edits check, Fri 15:00 | Active, quiet |
-| [Engineering Lead](engineering-lead.md) | Engineering loop: specs, CI, reviews, follow-up | none | Active |
-| [Site Audit](site-audit.md) | Website audits for leads | none | Dormant |
-| [Code Auditor](code-auditor.md) | Code audits and live-deploy pass/fail checks | none | Dormant |
+| [Grook](fleet/grook.md) | Routes each ask to its owner, checks work, gives one stream | weekday brief 08:00, Sunday cleanup 10:00, weekend review 20:30 | Active |
+| [Dr Egghead](fleet/dr-egghead.md) | Designs and reviews bots | daily bot review 10:45, weekly routine check Mon 09:05 | Active |
+| [Schedule](fleet/schedule.md) | Calendar upkeep and planned-vs-actual coaching | actuals 09:30 and retry 12:40, check 21:15, screens-off 22:45 | Active |
+| [Career](fleet/career.md) | Applications, documents, upskilling | email scan weekdays 07:00 and 17:00, metrics Sunday 16:00 | Active |
+| [Sales](fleet/sales.md) | Independent business, lead to paid work | lead scan Monday 06:20, lesson Saturday 09:00 | Active, outreach on hold |
+| [Parenting](fleet/parenting.md) | Household logistics and reminders | five, see its file | Active |
+| [Persona](fleet/persona.md) | The user's writing voice and humanizing drafts | weekly shipped-edits check, Fri 15:00 | Active, quiet |
+| [Engineering Lead](fleet/engineering-lead.md) | Engineering loop: specs, CI, reviews, follow-up | none | Active |
+| [Site Audit](fleet/site-audit.md) | Website audits for leads | none | Dormant |
+| [Code Auditor](fleet/code-auditor.md) | Code audits and live-deploy pass/fail checks | none | Dormant |
 
 "Registered routines" means routines that exist in the platform. All routines are staggered at least 15 minutes apart.
 
