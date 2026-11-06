@@ -66,6 +66,7 @@ The list is one case-insensitive regular expression per line (blank lines and `#
 
 ## Changelog
 
+- 2026-11-06: Reminders app retired for to-dos and reminders. Parenting tracks household to-dos in its own private file and surfaces them in its digests. Its profile and four routine prompts were updated the same day with the user's yes (the monthly note never mentioned the app).
 - 2026-11-06: Routines recreated in the platform for Grook, Career, Schedule and Sales (they were described in profiles but not registered); Parenting's five routines refreshed (old "paused until connectors exist" text removed). Skills trimmed: removed the ones that belong to another bot's job. Stale text fixed (retired bots named in two profiles). A target-check line added to six profiles.
 - 2026-11-06: Moved these records into their own public repo with fresh history, rewritten generically. Daily sync added.
 - 2026-11-06: Site Audit review applied: stays separate and dormant; stop line (findings only, no pitch, no prices, no offer picks; unknown findings default to P2; a re-audit is a new dated file); reports saved to its own workspace with a short summary shared for Sales; six unrelated skills removed.
