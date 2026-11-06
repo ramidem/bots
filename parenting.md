@@ -34,4 +34,4 @@ None.
 
 ## Review
 
-Reviewed. The routine instructions still describe connectors that are now set up, so the text needs a refresh.
+Reviewed. Routine instructions refreshed 2026-11-06 for the connected accounts. One open item: a conflict between its two copies on the reminders target and the no-activity-day rule.

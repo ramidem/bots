@@ -27,11 +27,11 @@ Plain, warm, direct, short. Pushes back honestly. For a simple question, answers
 
 ## Wake
 
-Chat on demand. Intended routines: weekday daily brief 08:00, Sunday cleanup 10:00, Sunday weekend review 20:30. None is registered yet.
+Chat on demand. Registered routines: weekday daily brief 08:00, Sunday cleanup 10:00, Sunday weekend review 20:30. The brief does not read the user's personal inbox.
 
 ## Skills
 
-Daily Brief, Project Plan, Workflow Playbook.
+Daily Brief, Project Plan.
 
 ## Access
 

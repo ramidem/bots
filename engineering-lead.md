@@ -34,4 +34,4 @@ Bug Triage, PR Follow-up, pstack, secure-code-guidance.
 
 ## Review
 
-Reviewed. The profile text still names the retired QA and Audit Engineer bots and needs the Code Auditor update (waiting on the user's yes).
+Reviewed. Profile now names Code Auditor and carries the target-check line.

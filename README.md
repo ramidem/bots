@@ -18,18 +18,18 @@ All bots report to Grook, the user's single front door.
 
 | Bot | One job | Registered routines | Status |
 |---|---|---|---|
-| [Grook](grook.md) | Routes each ask to its owner, checks work, gives one stream | none registered yet | Active |
+| [Grook](grook.md) | Routes each ask to its owner, checks work, gives one stream | weekday brief 08:00, Sunday cleanup 10:00, weekend review 20:30 | Active |
 | [Dr Egghead](dr-egghead.md) | Designs and reviews bots | daily bot review 10:45, weekly routine check Mon 09:05 | Active |
-| [Schedule](schedule.md) | Calendar upkeep and planned-vs-actual coaching | none registered yet | Active |
-| [Career](career.md) | Applications, documents, upskilling | none registered yet | Active |
-| [Sales](sales.md) | Independent business, lead to paid work | none registered yet | Active, outreach on hold |
+| [Schedule](schedule.md) | Calendar upkeep and planned-vs-actual coaching | actuals 09:30 and retry 12:40, check 21:15, screens-off 22:45 | Active |
+| [Career](career.md) | Applications, documents, upskilling | email scan weekdays 07:00 and 17:00, metrics Sunday 16:00 | Active |
+| [Sales](sales.md) | Independent business, lead to paid work | lead scan Monday 06:20, lesson Saturday 09:00 | Active, outreach on hold |
 | [Parenting](parenting.md) | Household logistics and reminders | five, see its file | Active |
 | [Persona](persona.md) | The user's writing voice and humanizing drafts | weekly shipped-edits check, Fri 15:00 | Active, quiet |
 | [Engineering Lead](engineering-lead.md) | Engineering loop: specs, CI, reviews, follow-up | none | Active |
 | [Site Audit](site-audit.md) | Website audits for leads | none | Dormant |
 | [Code Auditor](code-auditor.md) | Code audits and live-deploy pass/fail checks | none | Dormant |
 
-"Registered routines" means routines that exist in the platform. Several profiles describe routines that are not registered yet; each file says so.
+"Registered routines" means routines that exist in the platform. All routines are staggered at least 15 minutes apart.
 
 ## Standing rules (every bot)
 
@@ -66,6 +66,7 @@ The list is one case-insensitive regular expression per line (blank lines and `#
 
 ## Changelog
 
+- 2026-11-06: Routines recreated in the platform for Grook, Career, Schedule and Sales (they were described in profiles but not registered); Parenting's five routines refreshed (old "paused until connectors exist" text removed). Skills trimmed: removed the ones that belong to another bot's job. Stale text fixed (retired bots named in two profiles). A target-check line added to six profiles.
 - 2026-11-06: Moved these records into their own public repo with fresh history, rewritten generically. Daily sync added.
 - 2026-11-06: Site Audit review applied: stays separate and dormant; stop line (findings only, no pitch, no prices, no offer picks; unknown findings default to P2; a re-audit is a new dated file); reports saved to its own workspace with a short summary shared for Sales; six unrelated skills removed.
 - 2026-11-06: Persona review applied: weekly check routine recreated; outreach rules added to its profile; split with Sales stated; reporting line corrected.

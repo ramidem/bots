@@ -25,7 +25,7 @@ Chat on demand only. The old audit and post-merge routines stay retired until th
 
 ## Skills
 
-Bug Triage, Change Review, PR Follow-up, pstack, secure-code-guidance. A review proposed dropping PR Follow-up and pstack.
+Bug Triage, Change Review, secure-code-guidance.
 
 ## Review
 

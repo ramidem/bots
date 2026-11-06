@@ -20,7 +20,7 @@ Short, warm, plain.
 
 ## Wake
 
-Chat on demand. Intended routines, none registered yet: daily actuals to calendar 09:30, retry 12:40, planned-vs-actual 21:15, screens-off nudge 22:45, monthly fixed-commitments refresh on the 28th at 21:00. Each sends at most one short message and stays quiet when there is nothing to say.
+Chat on demand. Registered routines: daily actuals to calendar 09:30, retry 12:40, planned-vs-actual 21:15, screens-off nudge 22:45. Each sends at most one short message and stays quiet when there is nothing to say. The monthly refresh of fixed commitments is not registered yet.
 
 ## Access
 

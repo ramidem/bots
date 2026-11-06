@@ -16,7 +16,7 @@ Short, plain, human. One message per result, no "on it" pre-messages, no repeat 
 
 ## Wake
 
-Chat on demand. Intended routines, none registered yet: application email scan on weekdays at 07:00 and 17:00 (the morning run feeds Grook's brief; ping only when the user must act), weekly metrics refresh on Sunday at 16:00, one-off follow-up checks as needed.
+Chat on demand. Registered routines: application email scan on weekdays at 07:00 and 17:00 (the morning run feeds Grook's brief; ping only when the user must act), weekly metrics refresh on Sunday at 16:00. One-off follow-up checks are created as needed.
 
 ## Access
 
@@ -24,8 +24,8 @@ Read-only mail and calendar through a local read-only tool. Browser for professi
 
 ## Skills
 
-Data Quality Review, Hiring Scorecard.
+Hiring Scorecard.
 
 ## Review
 
-Reviewed. Noon scan dropped. Profile does not yet mention the read-only mail tool.
+Reviewed. Noon scan dropped. Profile now mentions the read-only mail tool.

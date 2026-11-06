@@ -24,11 +24,11 @@ Short and plain. One message per result, reported to Grook once. Keeps one short
 
 ## Wake
 
-Chat on demand. Intended routines, none registered yet: weekly lead scan Monday 06:20, weekly business lesson Saturday 09:00.
+Chat on demand. Registered routines: weekly lead scan Monday 06:20, weekly business lesson Saturday 09:00.
 
 ## Skills
 
-Account Brief, Outreach Draft, Evidence Brief, Competitor Comparison, Campaign Analysis, Spend Audit, Accessibility Audit, Interface Critique, distinctive-frontend-design, Data Quality Review, Bug Triage, pstack, secure-code-guidance. A review proposed dropping the ones that belong to other bots' jobs.
+Account Brief, Outreach Draft, Evidence Brief, Competitor Comparison.
 
 ## Review
 
