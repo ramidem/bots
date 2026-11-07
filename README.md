@@ -52,7 +52,7 @@ All bots report to Grook, the user's single front door.
 
 **Merging bots.** Prefer fewer bots. Merge dormant or overlapping ones into the closest owner, keep one profile with explicit anti-jobs, and retire the other.
 
-Review queue: Grook, Schedule, Career, Sales, Engineering Lead, Parenting, Persona and Site Audit are reviewed. Code Auditor is next.
+Review queue: Grook, Schedule, Career, Sales, Engineering Lead, Parenting, Persona and Site Audit are reviewed. All bots are reviewed.
 
 ## Leak check
 
@@ -66,6 +66,7 @@ The list is one case-insensitive regular expression per line (blank lines and `#
 
 ## Changelog
 
+- 2026-11-07: Code Auditor review applied: profile cleaned of stale history and a hardcoded repo; acceptance source and an INCOMPLETE verdict added; pull request and diff review stays with Engineering Lead and the Change Review skill is removed; fixed audit output format; command-line checks before the browser. It stays its own bot with no routines. The review queue is finished.
 - 2026-11-06: Reminders app retired for to-dos and reminders. Parenting tracks household to-dos in its own private file and surfaces them in its digests. Its profile and four routine prompts were updated the same day with the user's yes (the monthly note never mentioned the app).
 - 2026-11-06: Routines recreated in the platform for Grook, Career, Schedule and Sales (they were described in profiles but not registered); Parenting's five routines refreshed (old "paused until connectors exist" text removed). Skills trimmed: removed the ones that belong to another bot's job. Stale text fixed (retired bots named in two profiles). A target-check line added to six profiles.
 - 2026-11-06: Moved these records into their own public repo with fresh history, rewritten generically. Daily sync added.
