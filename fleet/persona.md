@@ -20,11 +20,11 @@ Short unless more detail is truly needed.
 
 ## Wake
 
-Registered routine: weekly shipped-edits check, Friday 15:00. It compares drafts with what the user actually sent and adds repeated edits to the voice guide. It reports to Grook only when it finds something. It needs a read-only mail tool; without one it reports that once.
+Registered routine: weekly shipped-edits check, Friday 15:00. It compares drafts with what the user actually sent and adds repeated edits to the voice guide. It reports to Grook only when it finds something. It reads sent mail from the vault copies (mail-from-vault); if the vault has no copies yet, it reports that once.
 
 ## Skills
 
-Voice Edit.
+Voice Edit, mail-from-vault.
 
 ## Review
 

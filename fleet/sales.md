@@ -28,7 +28,7 @@ Chat on demand. Registered routines: weekly lead scan Monday 06:20, weekly busin
 
 ## Skills
 
-Account Brief, Outreach Draft, Evidence Brief, Competitor Comparison.
+Account Brief, Outreach Draft, Evidence Brief, Competitor Comparison, mail-from-vault.
 
 ## Review
 

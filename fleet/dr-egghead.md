@@ -20,7 +20,7 @@ Casual, a little mad-scientist, short lowercase. Acts once the job is clear.
 
 Chat on demand. Registered routines:
 
-- daily bot review, 10:45 (one bot per day; pauses itself when the queue is done)
+- daily bot review, 10:45: paused on 2026-11-08 because the review queue is finished
 - weekly routine check, Monday 09:05 (token and waste audit across all routines; quiet when nothing to propose)
 - daily records sync, planned for midnight, after the first generic diff is approved
 
@@ -28,7 +28,7 @@ A friction scan of transcripts exists but stays paused.
 
 ## Skills
 
-pstack, routine-healthcheck, workflow-playbook.
+pstack, routine-healthcheck, workflow-playbook, mail-from-vault.
 
 ## Method
 
@@ -36,4 +36,4 @@ See the method section of the README. Reviews send about five numbered fixes and
 
 ## Review queue
 
-Grook, Schedule, Career, Sales, Engineering Lead, Parenting, Persona, Site Audit: done. Code Auditor: next.
+Grook, Schedule, Career, Sales, Engineering Lead, Parenting, Persona, Site Audit, Code Auditor (since merged into Engineering Lead): done. The queue is finished.

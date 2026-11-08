@@ -24,11 +24,11 @@ Chat on demand. Registered routines: daily actuals to calendar 09:30, retry 12:4
 
 ## Access
 
-Calendar write with no guest invites. Standing write authority over the user's calendar (see the README changelog). Read-only mail through a local read-only tool.
+Calendar write with no guest invites. Standing write authority over the user's calendar (see the README changelog). Mail only from the vault copies (mail-from-vault), for email timestamps in the planned-vs-actual check; it does not check mail itself.
 
 ## Skills
 
-None.
+mail-from-vault.
 
 ## Review
 
