@@ -26,9 +26,19 @@ Short.
 
 Chat on demand only. The old monthly and weekly routines stay retired until the user asks.
 
+## Model
+
+Grok 4.5, medium effort (fleet switch 2026-11-09; was Claude Haiku tier at high).
+
+## Working files
+
+Report template and research live in the user's notes vault under `site-audit/` (`TEMPLATE.md` + `docs/`). Canonical home is the vault. The agent workspace keeps a symlink at `site-audit/` so skills still resolve. Audit outputs stay in the agent workspace under `audits/<lead>/` (plus optional evidence pack: lighthouse JSON, `shots/`, `html/`).
+
+**Template shape (2026-11-09):** Sales skim first (summary → top findings cap 3–5 → area scores with anchors → Offers Tracker 14 → measurements with Method lab/field/spot → not measured → flags). Auditor fill order is metadata → sample pages → probes in the appendix → then skim sections. Accessibility notes WCAG 2.2 AA signals. Method is report-only until the JSON schema grows a field. Mermaid metrics still deferred.
+
 ## Skills
 
-Accessibility Audit, Interface Critique, Evidence Brief.
+site-audit (local orchestrator; full audit via section skills into TEMPLATE.md + audit.json; fill order probes → 14 → report), site-audit-14, site-audit-seo, site-audit-content, site-audit-speed, site-audit-a11y, site-audit-cro, site-audit-schema, site-audit-report (each runnable alone), Accessibility Audit, Interface Critique, Evidence Brief.
 
 ## Review
 

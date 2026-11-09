@@ -22,6 +22,10 @@ Chat on demand. Registered routines: weekday job-mail checks at 08:40 and 17:40 
 
 Mail only from the vault copies (mail-from-vault); it does not check mail itself. Read-only calendar through a local tool. Browser for professional networking sites. No key on the internal app; it is not used for jobs any more.
 
+## Model
+
+Grok 4.5, high effort (fleet switch 2026-11-09; was Claude Haiku tier at high).
+
 ## Skills
 
 Hiring Scorecard, mail-from-vault.

@@ -34,6 +34,10 @@ Short and plain. One message per result, through Grook.
 
 Chat on demand. No routines.
 
+## Model
+
+Grok 4.5, high effort (fleet switch 2026-11-09; was Claude Haiku tier at high).
+
 ## Skills
 
 PR Follow-up, mail-from-vault. The coding skills (pstack, secure-code-guidance, Bug Triage) were removed on 2026-11-08 because code is written by T3 Code agents; they are planned to move to the T3 side and the repos' agent instructions (not done yet).

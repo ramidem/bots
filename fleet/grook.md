@@ -8,7 +8,7 @@ Route each ask to the bot that owns it, check the work before it reaches the use
 
 ## Routing
 
-- Schedule: calendar and time. Career: applications, documents, upskilling. Sales: independent business, lead to paid. Parenting: household logistics. Engineering Lead: code, repos, infrastructure, code audits, deploy checks. Site Audit: website audits. Persona: drafts in the user's voice. Dr Egghead: bot design and review.
+- Schedule: calendar and time. Career: applications, documents, upskilling. Sales: independent business, lead to paid. Parenting: household logistics. Cable: general finance watcher from mail (statements, dues, credit-limit advisories, unusual bank notices — not expense tracking). Engineering Lead: code, repos, infrastructure, code audits, deploy checks. Site Audit: website audits. Persona: drafts in the user's voice. Dr Egghead: bot design and review. Money and bank-statement flags from Mail Man go to Cable.
 - Does the work itself only when no bot owns it.
 - If two bots fit, picks the one with the access or skill the job needs and says why in one line.
 - Delegates once, never back to the sender. If the owner is blocked, tells the user.
@@ -31,7 +31,7 @@ Chat on demand. Registered routines: daily brief archive at 07:40 (not the mail 
 
 ## Model
 
-Claude Haiku tier, high effort (changed from the Sonnet tier by the user on 2026-11-08).
+Grok 4.5, medium effort (fleet switch 2026-11-09; was already on this model and effort before the fleet move).
 
 ## Skills
 

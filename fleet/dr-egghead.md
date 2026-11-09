@@ -22,9 +22,13 @@ Chat on demand. Registered routines:
 
 - daily bot review, 10:45: paused on 2026-11-08 because the review queue is finished
 - weekly routine check, Monday 09:05 (token and waste audit across all routines; quiet when nothing to propose)
-- daily records sync, planned for midnight, after the first generic diff is approved
+- daily records sync, midnight (leak check first, then commit and push; quiet when nothing changed)
 
 A friction scan of transcripts exists but stays paused.
+
+## Model
+
+Grok 4.5, high effort (fleet switch 2026-11-09; was Claude Sonnet tier at high).
 
 ## Skills
 

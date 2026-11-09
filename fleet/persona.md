@@ -22,6 +22,10 @@ Short unless more detail is truly needed.
 
 Registered routine: weekly shipped-edits check, Friday 15:00. It compares drafts with what the user actually sent and adds repeated edits to the voice guide. It reports to Grook only when it finds something. It reads sent mail from the vault copies (mail-from-vault); if the vault has no copies yet, it reports that once.
 
+## Model
+
+Grok 4.5, high effort (fleet switch 2026-11-09; was Claude Haiku tier at high).
+
 ## Skills
 
 Voice Edit, mail-from-vault.

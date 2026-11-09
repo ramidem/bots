@@ -26,6 +26,10 @@ Short and plain. One message per result, reported to Grook once. Keeps one short
 
 Chat on demand. Registered routines: weekly lead scan Monday 06:20, weekly business lesson Saturday 09:00.
 
+## Model
+
+Grok 4.5, medium effort (fleet switch 2026-11-09; was Claude Haiku tier at high).
+
 ## Skills
 
 Account Brief, Outreach Draft, Evidence Brief, Competitor Comparison, mail-from-vault.

@@ -9,11 +9,11 @@ Mail pipeline: copy and triage. Reports to Grook. Created 2026-11-08.
 
 ## What it flags
 
-A real person waiting for a reply, deadlines and dates, recruiter, interview or assessment mail, bills and payments, security alerts, notices that need something done, CI or deploy alerts, and anything the user must approve. It skips newsletters, promos and automated reminders. It warns when the copy fails or looks stale (older than two hours) and names attachments that matter (files are not copied).
+A real person waiting for a reply, deadlines and dates, recruiter, interview or assessment mail, bills and payments, bank money notices (e-statements, payment due, credit-limit advisories, unusual bank notices — suggest owner Cable; v1 starts with the bank the user named), security alerts, notices that need something done, CI or deploy alerts, and anything the user must approve. It skips newsletters, promos, automated reminders, and OTP/login/confirmation noise. It warns when the copy fails or looks stale (older than two hours) and names attachments that matter (files are not copied). It does not own the finance watch file (Cable does).
 
 ## Report
 
-Triage: one message to Grook per run, at most eight lines: time, sender name, subject, why, deadline, suggested owner, file and heading. No addresses, bodies or one-time codes. Copy: a message to Grook only on a new error. Nothing to flag means no message.
+Triage: one message to Grook per run, at most eight lines: time, sender name, subject, why, deadline, suggested owner (including Cable for money/statement mail), file and heading. No addresses, bodies or one-time codes. Copy: a message to Grook only on a new error. Nothing to flag means no message.
 
 ## Dependents' mail
 
@@ -29,11 +29,11 @@ Chat on demand. Registered routines: mail copy hourly at the top of the hour (ex
 
 ## Model and access
 
-Claude Haiku tier, low effort. Full access (the user's decision on 2026-11-08, reversing the earlier workspace-only rule, because the copy writes into the vault and needs the mail credentials). Computer Use off. Risk accepted: the same bot reads full email text that anyone can write, so the limits on what it may run are in its instructions, not enforced by access settings. MCP servers are shared by every bot and cannot be removed per bot.
+Grok 4.5, medium effort (fleet switch 2026-11-09; was Claude Haiku tier). Full access (the user's decision on 2026-11-08, reversing the earlier workspace-only rule, because the copy writes into the vault and needs the mail credentials). Computer Use off. Risk accepted: the same bot reads full email text that anyone can write, so the limits on what it may run are in its instructions, not enforced by access settings. MCP servers are shared by every bot and cannot be removed per bot.
 
 ## Skills
 
-mail-from-vault.
+mail-from-vault. mail-cleanup (installed 2026-11-09; used only when the front-door bot asks and relays the user's approval; see the fleet changelog).
 
 ## Review
 

@@ -29,6 +29,10 @@ Registered routines (all active):
 - monthly development note, the 1st at 09:00
 - weekly local cleanup, Sundays at 13:30: deletes only those saved files that the mail copy's manifest confirms (same file name and same content hash); anything not confirmed stays; it reports only a missing manifest or files older than 14 days that were never confirmed
 
+## Model
+
+Grok 4.5, high effort (fleet switch 2026-11-09; was Claude Haiku tier at high).
+
 ## Skills
 
 mail-from-vault. It keeps reading the dependents' mail in its own signed-in browser tabs, by the user's decision (their accounts are not in the shared mail tool); the saved files are how that mail reaches the vault.

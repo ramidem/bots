@@ -26,6 +26,10 @@ Chat on demand. Registered routines: daily actuals to calendar 09:30, retry 12:4
 
 Calendar write with no guest invites. Standing write authority over the user's calendar (see the README changelog). Mail only from the vault copies (mail-from-vault), for email timestamps in the planned-vs-actual check; it does not check mail itself.
 
+## Model
+
+Grok 4.5, medium effort (fleet switch 2026-11-09; was Claude Haiku tier at high).
+
 ## Skills
 
 mail-from-vault.
