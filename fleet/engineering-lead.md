@@ -36,7 +36,7 @@ Chat on demand. No routines.
 
 ## Model
 
-Grok 4.5, high effort (fleet switch 2026-11-09; was Claude Haiku tier at high).
+Claude Sonnet 5.5, high effort (partial Claude for claude-mem, 2026-11-10; was Grok 4.5 high).
 
 ## Skills
 

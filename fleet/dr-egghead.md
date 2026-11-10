@@ -28,7 +28,7 @@ transcript-healthcheck (weekdays 08:50) exists but stays paused. Absorbed from D
 
 ## Model
 
-Grok 4.5, high effort (fleet switch 2026-11-09; was Claude Sonnet tier at high).
+Claude Sonnet 5.5, high effort (partial Claude for claude-mem, 2026-11-10; was Grok 4.5 high).
 
 ## Skills
 
@@ -41,4 +41,4 @@ See the method section of the README. Reviews send about five numbered fixes and
 
 ## Review cycle
 
-Daily rotation (one bot per day), not a finished queue. Order lives in the agent's `review-cycle.json`: Schedule → Cable → Mail Man → Grook → Career → Sales → Parenting → Persona → Engineering Lead → Site Audit → (repeat). New bots append. Dr Egghead is skipped. Routine is paused until the user turns it on.
+Daily rotation (one bot per day), not a finished queue. Order lives in the agent's `review-cycle.json`: Schedule → Cable → Mail Man → Grook → Career → Sales → Parenting → Persona → Engineering Lead → (repeat). New bots append. Dr Egghead is skipped. Routine is paused until the user turns it on.

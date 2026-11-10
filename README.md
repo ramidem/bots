@@ -18,7 +18,7 @@ All bots report to Grook, the user's single front door.
 
 | Bot | One job | Registered routines | Status |
 |---|---|---|---|
-| [Grook](fleet/grook.md) | Routes each ask to its owner, checks work, gives one stream | daily brief four times a day (08:20, 12:20, 15:20, 18:20), brief archive 07:40, Sunday cleanup 10:00, weekend review 20:45 | Active |
+| [Grook](fleet/grook.md) | Routes each ask to its owner, checks work, gives one stream | daily brief four times a day (06:00, 12:00, 15:00, 18:00), brief archive 05:40, Sunday cleanup 10:00, weekend review 20:45 | Active |
 | [Mail Man](fleet/mail-man.md) | Reads the mail copies and flags what needs action, to Grook only | hourly mail copy, mail triage 08:05, 14:05, 20:05 | Active |
 | [Dr Egghead](fleet/dr-egghead.md) | Designs and reviews bots | daily bot review 10:45 (cycle; paused until the user turns it on), weekly routine check Mon 09:05, daily records sync 00:00 | Active |
 | [Schedule](fleet/schedule.md) | Calendar upkeep and planned-vs-actual coaching | actuals 09:30 and retry 12:40, check 21:15, screens-off 22:45 | Active |
@@ -27,7 +27,7 @@ All bots report to Grook, the user's single front door.
 | [Parenting](fleet/parenting.md) | Household logistics and reminders | six, see its file | Active |
 | [Persona](fleet/persona.md) | The user's writing voice and humanizing drafts | weekly shipped-edits check, Fri 15:00 | Active, quiet |
 | [Engineering Lead](fleet/engineering-lead.md) | Engineering loop: specs, CI, reviews, follow-up, code audits and deploy checks | none | Active |
-| [Site Audit](fleet/site-audit.md) | Website audits for leads | none | Dormant |
+| [Site Audit](fleet/site-audit.md) | Retired 2026-11-10: merged into Sales | none | Retired |
 | [Cable](fleet/cable.md) | General finance watcher from mail (not expense tracking) | weekly quiet digest Sun 16:20 | Active |
 
 "Registered routines" means routines that exist in the platform. All routines are staggered at least 15 minutes apart.
@@ -54,7 +54,7 @@ All bots report to Grook, the user's single front door.
 
 **Merging bots.** Prefer fewer bots. Merge dormant or overlapping ones into the closest owner, keep one profile with explicit anti-jobs, and retire the other.
 
-Review cycle: one bot per day, rotating forever (Schedule first, then Cable, Mail Man, Grook, Career, Sales, Parenting, Persona, Engineering Lead, Site Audit). The daily routine is paused until the user turns it on.
+Review cycle: one bot per day, rotating forever (Schedule first, then Cable, Mail Man, Grook, Career, Sales, Parenting, Persona, Engineering Lead). The daily routine is paused until the user turns it on.
 
 ## Leak check
 
@@ -68,6 +68,9 @@ The list is one case-insensitive regular expression per line (blank lines and `#
 
 ## Changelog
 
+- 2026-11-10: Partial Claude for claude-mem (user approved): Grook, Dr Egghead, and Engineering Lead → Claude Sonnet 5.5 (medium / high / high). Other eight stay Grok 4.5 at current efforts. Not a full rollback. T3/pstack untouched.
+- 2026-11-10: Grook's brief routines moved earlier (user's call): archive 07:40 → 05:40; daily brief 08:20/12:20/15:20/18:20 → 06:00/12:00/15:00/18:00. Note: 15:00 and 18:00 now share a minute with Persona's Friday check (15:00) and Parenting's Friday check-in (18:00), and 06:00 with Parenting's weekday digest.
+- 2026-11-10: Site Audit merged into Sales (user's call): Sales gained the site-audit orchestrator + 8 section skills (`-14`, `-seo`, `-content`, `-speed`, `-a11y`, `-cro`, `-schema`, `-report`), the vault template symlink and an Audits remit (findings first; offer ranking and pricing as a separate step). Grook routing updated; removed from the review cycle. Site Audit had no routines or saved audits. The bot itself is removed by the user in the app.
 - 2026-11-10: Dr. Eggbot deleted after absorb into Dr Egghead: Agent Designer + Agent Chat Healthcheck + Working With Teammate Agents skills; design rubric (no leftover tools, full-persona templates, non-coding tightness); paused transcript-healthcheck weekdays 08:50. Dropped unused API Skill Builder, Workflow Playbook, and mail-from-vault from Egghead. Site Audit modular skills still on Egghead but belong on Site Audit (modified — user must remove).
 - 2026-11-10: Bot review rewritten as a daily cycle (one bot per day via review-cycle.json), not a finished queue. Routine stays paused until the user turns it on.
 - 2026-11-09: Books renamed Cable (user). Vault `FINANCE.md` moved to notes-vault root. Skill books-watch v4 + weekly digest path updated. Grook and Mail Man routing lines say Cable.

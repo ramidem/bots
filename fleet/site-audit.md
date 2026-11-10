@@ -1,5 +1,7 @@
 # Site Audit
 
+**Retired 2026-11-10: merged into Sales** (see `fleet/sales.md`). Kept as history; remove once the bot is deleted.
+
 Website audits for the user's leads. Reports to Grook.
 
 ## Job
