@@ -20,7 +20,7 @@ All bots report to Grook, the user's single front door.
 |---|---|---|---|
 | [Grook](fleet/grook.md) | Routes each ask to its owner, checks work, gives one stream | daily brief four times a day (08:20, 12:20, 15:20, 18:20), brief archive 07:40, Sunday cleanup 10:00, weekend review 20:45 | Active |
 | [Mail Man](fleet/mail-man.md) | Reads the mail copies and flags what needs action, to Grook only | hourly mail copy, mail triage 08:05, 14:05, 20:05 | Active |
-| [Dr Egghead](fleet/dr-egghead.md) | Designs and reviews bots | daily bot review (paused, queue finished), weekly routine check Mon 09:05, daily records sync 00:00 | Active |
+| [Dr Egghead](fleet/dr-egghead.md) | Designs and reviews bots | daily bot review 10:45 (cycle; paused until the user turns it on), weekly routine check Mon 09:05, daily records sync 00:00 | Active |
 | [Schedule](fleet/schedule.md) | Calendar upkeep and planned-vs-actual coaching | actuals 09:30 and retry 12:40, check 21:15, screens-off 22:45 | Active |
 | [Career](fleet/career.md) | Applications, documents, upskilling | job-mail checks weekdays 08:40 and 17:40 (from the vault copies), metrics Sunday 16:00 | Active |
 | [Sales](fleet/sales.md) | Independent business, lead to paid work | lead scan Monday 06:20, lesson Saturday 09:00 | Active, outreach on hold |
@@ -50,11 +50,11 @@ All bots report to Grook, the user's single front door.
 
 **Designing a bot.** Ask a few preference questions. Check whether an existing bot already covers the job. Then create it with one job stated first, an explicit anti-jobs list (what it never does and who owns that instead), one voice, a clear wake (chat on demand plus named routines, staggered), who it reports to, where its source of truth lives, and draft-then-send rules for anything outgoing. Coding bots get the pstack poteto-mode bar. Read the new bot's profile back to verify it.
 
-**Reviewing a bot.** One bot per day. Read the profile and recent chat read-only. Look for stale text, routines described but not registered, missing anti-jobs, overlap with another bot, duplicate messages, token waste, and friction in transcripts. Send about five numbered, concrete fixes. Change nothing until the user picks. Apply only what was picked, verify it, and log it.
+**Reviewing a bot.** One bot per day on a cycle. Read the profile, routines, installed skills, and recent chat read-only. Look for: stale text; routines described but not registered (or the reverse); missing anti-jobs; overlap with another bot; duplicate messages; token waste; transcript friction; path/skill drift; **unused skills** (installed but never referenced by profile, routines, or recent work); **redundant skills** (two skills cover the same job, or a skill that belongs to another bot's job). Propose uninstall/disable for unused or redundant ones. Send about five numbered, concrete fixes. Change nothing until the user picks. Apply only what was picked, verify it, and log it.
 
 **Merging bots.** Prefer fewer bots. Merge dormant or overlapping ones into the closest owner, keep one profile with explicit anti-jobs, and retire the other.
 
-Review queue: Grook, Schedule, Career, Sales, Engineering Lead, Parenting, Persona and Site Audit are reviewed. All bots are reviewed.
+Review cycle: one bot per day, rotating forever (Schedule first, then Cable, Mail Man, Grook, Career, Sales, Parenting, Persona, Engineering Lead, Site Audit). The daily routine is paused until the user turns it on.
 
 ## Leak check
 
@@ -68,6 +68,8 @@ The list is one case-insensitive regular expression per line (blank lines and `#
 
 ## Changelog
 
+- 2026-11-10: Dr. Eggbot deleted after absorb into Dr Egghead: Agent Designer + Agent Chat Healthcheck + Working With Teammate Agents skills; design rubric (no leftover tools, full-persona templates, non-coding tightness); paused transcript-healthcheck weekdays 08:50. Dropped unused API Skill Builder, Workflow Playbook, and mail-from-vault from Egghead. Site Audit modular skills still on Egghead but belong on Site Audit (modified — user must remove).
+- 2026-11-10: Bot review rewritten as a daily cycle (one bot per day via review-cycle.json), not a finished queue. Routine stays paused until the user turns it on.
 - 2026-11-09: Books renamed Cable (user). Vault `FINANCE.md` moved to notes-vault root. Skill books-watch v4 + weekly digest path updated. Grook and Mail Man routing lines say Cable.
 - 2026-11-09: Books add-on (user): three standing rules — learn patterns over time, keep one slim `personal/finance/FINANCE.md`, actionable lines only (pay by date, credit-limit risk, statement to review). Skill `books-watch` revised; weekly digest points at FINANCE. No expense tracking.
 - 2026-11-09: Books remit corrected (user): general finance watcher, not expense/income tracker. Index statements arrived, payment due, credit-limit advisories, unusual bank notices into a private vault finance file. Skill `books-watch` replaced `books-ledger`. Routine + fleet wording updated. No expense categories/totals/budgets.

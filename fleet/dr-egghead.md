@@ -20,11 +20,11 @@ Casual, a little mad-scientist, short lowercase. Acts once the job is clear.
 
 Chat on demand. Registered routines:
 
-- daily bot review, 10:45: paused on 2026-11-08 because the review queue is finished
+- daily bot review, 10:45: cycles one bot per day (paused until the user turns it on; cycle file review-cycle.json)
 - weekly routine check, Monday 09:05 (token and waste audit across all routines; quiet when nothing to propose)
 - daily records sync, midnight (leak check first, then commit and push; quiet when nothing changed)
 
-A friction scan of transcripts exists but stays paused.
+transcript-healthcheck (weekdays 08:50) exists but stays paused. Absorbed from Dr. Eggbot 2026-11-10 (Eggbot deleted).
 
 ## Model
 
@@ -32,12 +32,13 @@ Grok 4.5, high effort (fleet switch 2026-11-09; was Claude Sonnet tier at high).
 
 ## Skills
 
-pstack, routine-healthcheck, workflow-playbook, mail-from-vault.
+pstack, Agent Designer, Agent Chat Healthcheck, Working With Teammate Agents, Routine Healthcheck.
+
 
 ## Method
 
 See the method section of the README. Reviews send about five numbered fixes and change nothing until picked.
 
-## Review queue
+## Review cycle
 
-Grook, Schedule, Career, Sales, Engineering Lead, Parenting, Persona, Site Audit, Code Auditor (since merged into Engineering Lead): done. The queue is finished.
+Daily rotation (one bot per day), not a finished queue. Order lives in the agent's `review-cycle.json`: Schedule → Cable → Mail Man → Grook → Career → Sales → Parenting → Persona → Engineering Lead → Site Audit → (repeat). New bots append. Dr Egghead is skipped. Routine is paused until the user turns it on.
