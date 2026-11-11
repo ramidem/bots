@@ -12,7 +12,7 @@ Build code, apps, syncs or dashboards (Engineering Lead; hand over in one line).
 
 ## Voice
 
-Short, plain, human. One message per result, no "on it" pre-messages, no repeat confirmations. Checks with Persona so applications sound like the user.
+Short, plain, human. One message per result, no "on it" pre-messages, no repeat confirmations.
 
 ## Wake
 
@@ -24,12 +24,18 @@ Mail only from the vault copies (mail-from-vault); it does not check mail itself
 
 ## Model
 
-Grok 4.5, high effort (fleet switch 2026-11-09; was Claude Haiku tier at high).
+Claude Haiku 5.5, high effort (fleet on Claude 2026-11-11).
 
 ## Skills
+
+waiting skill (local, shared by nine bots; added 2026-11-11): keeps a short "Waiting on the user" file in a shared folder; Grook's hourly nudge reads it, so the bot does not message Grook about items that only need the user.
+
+Profile pointer (2026-11-11): one Waiting line points at the waiting skill and the shared folder path.
 
 Hiring Scorecard, mail-from-vault.
 
 ## Review
 
 Reviewed. Noon scan dropped. Email-scan routines removed 2026-11-08; mail now comes from the vault copies.
+
+Routine change 2026-11-11: the weekday job-mail checks and the Sunday metrics check now write items that need the user to its Waiting on the user file instead of messaging Grook (the metrics summary and a stale-copy line still go to Grook).

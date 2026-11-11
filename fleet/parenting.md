@@ -22,21 +22,27 @@ Short. Quiet when there is nothing to say.
 
 Registered routines (all active):
 
-- weekday digest, 06:00, change-only
+- weekday digest, 06:20, change-only
 - nightly next-day email, Sunday to Thursday, 20:20 (moved from 20:00 on 2026-11-08 to stay 20 minutes after the mail copy)
 - Sunday week-ahead, 19:00
-- Friday check-in, 18:00
+- Friday check-in, 18:20
 - monthly development note, the 1st at 09:00
 - weekly local cleanup, Sundays at 13:30: deletes only those saved files that the mail copy's manifest confirms (same file name and same content hash); anything not confirmed stays; it reports only a missing manifest or files older than 14 days that were never confirmed
 
 ## Model
 
-Grok 4.5, high effort (fleet switch 2026-11-09; was Claude Haiku tier at high).
+Claude Haiku 5.5, high effort (fleet on Claude 2026-11-11).
 
 ## Skills
+
+waiting skill (local, shared by nine bots; added 2026-11-11): keeps a short "Waiting on the user" file in a shared folder; Grook's hourly nudge reads it, so the bot does not message Grook about items that only need the user.
+
+Profile pointer (2026-11-11): one Waiting line points at the waiting skill and the shared folder path.
 
 mail-from-vault. It keeps reading the dependents' mail in its own signed-in browser tabs, by the user's decision (their accounts are not in the shared mail tool); the saved files are how that mail reaches the vault.
 
 ## Review
 
 Reviewed. Routine instructions refreshed 2026-11-06 for the connected accounts. One open item: a conflict between its two copies on the reminders target and the no-activity-day rule.
+
+Routine change 2026-11-11: the weekday digest also keeps a line in its shared file for items with a deadline that only the user can act on; its digests and emails to the user are unchanged.

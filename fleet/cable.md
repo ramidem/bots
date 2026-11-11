@@ -24,12 +24,18 @@ Chat on demand when Grook routes money mail. Registered routine: weekly quiet di
 
 ## Model
 
-Grok 4.5, high effort (money accuracy).
+Claude Haiku 5.5, medium effort (fleet on Claude 2026-11-11; one quiet weekly digest).
 
 ## Skills
+
+waiting skill (local, shared by nine bots; added 2026-11-11): keeps a short "Waiting on the user" file in a shared folder; Grook's hourly nudge reads it, so the bot does not message Grook about items that only need the user.
+
+Profile pointer (2026-11-11): one Waiting line points at the waiting skill and the shared folder path.
 
 mail-from-vault, books-watch.
 
 ## Review
 
 New. Renamed Books → Cable 2026-11-09. FINANCE at vault root. Not yet reviewed.
+
+Routine change 2026-11-11: the weekly digest now syncs open Action needed rows to its Waiting on the user file instead of messaging Grook.

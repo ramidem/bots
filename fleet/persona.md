@@ -1,3 +1,5 @@
+**Retired 2026-11-11: deleted by the user.** Kept as history.
+
 # Persona
 
 The user's voice. Reports to Grook.
@@ -27,6 +29,10 @@ Registered routine: weekly shipped-edits check, Friday 15:00. It compares drafts
 Grok 4.5, high effort (fleet switch 2026-11-09; was Claude Haiku tier at high).
 
 ## Skills
+
+waiting skill (local, shared by nine bots; added 2026-11-11): keeps a short "Waiting on the user" file in a shared folder; Grook's hourly nudge reads it, so the bot does not message Grook about items that only need the user.
+
+Profile pointer (2026-11-11): one Waiting line points at the waiting skill and the shared folder path.
 
 Voice Edit, mail-from-vault.
 

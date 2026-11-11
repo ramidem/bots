@@ -22,15 +22,20 @@ Chat on demand. Registered routines:
 
 - daily bot review, 10:45: cycles one bot per day (paused until the user turns it on; cycle file review-cycle.json)
 - weekly routine check, Monday 09:05 (token and waste audit across all routines; quiet when nothing to propose)
+- skill health, every 3 days at 11:30 (read-only review of every bot's skills: unused, overlapping, stale, off-job, mergeable, delete candidates; reports only when it finds something; changes nothing without the user's yes; state in skill-health-state.json)
 - daily records sync, midnight (leak check first, then commit and push; quiet when nothing changed)
 
 transcript-healthcheck (weekdays 08:50) exists but stays paused. Absorbed from Dr. Eggbot 2026-11-10 (Eggbot deleted).
 
 ## Model
 
-Claude Sonnet 5.5, high effort (partial Claude for claude-mem, 2026-11-10; was Grok 4.5 high).
+Claude Sonnet 5.5, high effort (fleet on Claude 2026-11-11; applies from the next turn).
 
 ## Skills
+
+waiting skill (local, shared by nine bots; added 2026-11-11): keeps a short "Waiting on the user" file in a shared folder; Grook's hourly nudge reads it, so the bot does not message Grook about items that only need the user.
+
+Profile pointer (2026-11-11): one Waiting line points at the waiting skill and the shared folder path.
 
 pstack, Agent Designer, Agent Chat Healthcheck, Working With Teammate Agents, Routine Healthcheck.
 
@@ -41,4 +46,6 @@ See the method section of the README. Reviews send about five numbered fixes and
 
 ## Review cycle
 
-Daily rotation (one bot per day), not a finished queue. Order lives in the agent's `review-cycle.json`: Schedule → Cable → Mail Man → Grook → Career → Sales → Parenting → Persona → Engineering Lead → (repeat). New bots append. Dr Egghead is skipped. Routine is paused until the user turns it on.
+Daily rotation (one bot per day), not a finished queue. Order lives in the agent's `review-cycle.json`: Schedule → Cable → Mail Man → Grook → Career → Sales → Parenting → Engineering Lead → (repeat). New bots append. Dr Egghead is skipped. Routine is paused until the user turns it on.
+
+Routine change 2026-11-11: the daily bot review keeps one Waiting on the user line for an open review (paused routine).

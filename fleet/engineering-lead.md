@@ -36,9 +36,13 @@ Chat on demand. No routines.
 
 ## Model
 
-Claude Sonnet 5.5, high effort (partial Claude for claude-mem, 2026-11-10; was Grok 4.5 high).
+Claude Sonnet 5.5, high effort (fleet on Claude 2026-11-11).
 
 ## Skills
+
+waiting skill (local, shared by nine bots; added 2026-11-11): keeps a short "Waiting on the user" file in a shared folder; Grook's hourly nudge reads it, so the bot does not message Grook about items that only need the user.
+
+Profile pointer (2026-11-11): one Waiting line points at the waiting skill and the shared folder path.
 
 PR Follow-up, mail-from-vault. The coding skills (pstack, secure-code-guidance, Bug Triage) were removed on 2026-11-08 because code is written by T3 Code agents; they are planned to move to the T3 side and the repos' agent instructions (not done yet).
 

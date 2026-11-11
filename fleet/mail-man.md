@@ -29,12 +29,18 @@ Chat on demand. Registered routines: mail copy hourly at the top of the hour (ex
 
 ## Model and access
 
-Grok 4.5, medium effort (fleet switch 2026-11-09; was Claude Haiku tier). Full access (the user's decision on 2026-11-08, reversing the earlier workspace-only rule, because the copy writes into the vault and needs the mail credentials). Computer Use off. Risk accepted: the same bot reads full email text that anyone can write, so the limits on what it may run are in its instructions, not enforced by access settings. MCP servers are shared by every bot and cannot be removed per bot.
+Claude Haiku 5.5, medium effort (fleet on Claude 2026-11-11). Full access (the user's decision on 2026-11-08, reversing the earlier workspace-only rule, because the copy writes into the vault and needs the mail credentials). Computer Use off. Risk accepted: the same bot reads full email text that anyone can write, so the limits on what it may run are in its instructions, not enforced by access settings. MCP servers are shared by every bot and cannot be removed per bot.
 
 ## Skills
+
+waiting skill (local, shared by nine bots; added 2026-11-11): keeps a short "Waiting on the user" file in a shared folder; Grook's hourly nudge reads it, so the bot does not message Grook about items that only need the user.
+
+Profile pointer (2026-11-11): one Waiting line points at the waiting skill and the shared folder path.
 
 mail-from-vault. mail-cleanup (installed 2026-11-09; used only when the front-door bot asks and relays the user's approval; see the fleet changelog).
 
 ## Review
 
 New. Not yet reviewed.
+
+Routine change 2026-11-11: triage writes mail meant for the user to its Waiting on the user file; mail meant for another bot still goes in one routing message to Grook; stale-copy warnings still go to Grook.

@@ -28,9 +28,13 @@ Calendar write with no guest invites. Standing write authority over the user's c
 
 ## Model
 
-Grok 4.5, medium effort (fleet switch 2026-11-09; was Claude Haiku tier at high).
+Claude Haiku 5.5, medium effort (fleet on Claude 2026-11-11).
 
 ## Skills
+
+waiting skill (local, shared by nine bots; added 2026-11-11): keeps a short "Waiting on the user" file in a shared folder; Grook's hourly nudge reads it, so the bot does not message Grook about items that only need the user.
+
+Profile pointer (2026-11-11): one Waiting line points at the waiting skill and the shared folder path.
 
 mail-from-vault.
 
