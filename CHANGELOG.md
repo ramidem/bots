@@ -1,0 +1,70 @@
+# Changelog
+
+This file records changes to the fleet records.
+
+## 2026-11
+
+- 2026-11-12: Job bot (user) moved back to Claude Haiku 5.5, high effort, from Grok 4.7. The profile dropped the expired one-off follow-up and listed the daily flashcard sync.
+- 2026-11-12: Skill health on the job bot (user) removed the marketplace hiring-scorecard skill. It plans employer interview loops, and this bot is the candidate.
+- 2026-11-12: Agency skill health (user). Page builder reads the filled audit. The script only picks leads. Agency owns that folder. Sales owns offers and research. Engineering owns specs. T3 owns code.
+- 2026-11-12: Skill health on the engineering bot (user) kept pull-request follow-up, limited to tracking and classifying pull requests. CI fixes and review threads go to T3.
+- 2026-11-12: Engineering Lead (user) does not review code or pull requests. Code is T3. It may open its own spec, doc, and config pull requests. Standing rule 8 was reworded.
+- 2026-11-12: Engineering Lead moved to planning (user). It writes specs and repo config, and checks repos. It does not write code or run cloud agents. The mail-copy script is T3. Standing rule 8 changed.
+- 2026-11-12: Agency skills consolidated on Agency (user). Engineering lost its copy. Agency alone holds the daily-task, audit, and page-build skills. Sales keeps the full site-audit set.
+- 2026-11-12: New bot Agency (user) on Grok 4.7. A bot cannot switch model mid-task. It took Grook's three-a-day task and three skills. It keeps its own waiting file. hourly-nudge v7 messages it. Grook routes to it.
+- 2026-11-12: Fleet skills were copied into skills/ (user) and made generic. Licensed and third-party skills stayed out. See skills/README.md. Waiting is published as waiting-on-owner. Leak check clean.
+- 2026-11-12: Site-audit skills were copied into skills/ (user). The orchestrator, eight section skills, the template, and the research note, with placeholders. A try to install them on the CEO bot was reverted at once.
+- 2026-11-11: Browser tab hygiene (user). A shared skill closes tabs a bot opened and checks the list before a turn ends. On all nine bots. No profile text changed. It cannot close another bot's tabs.
+- 2026-11-11: Whole fleet moved to Claude (user). Sonnet 5.5 high: Dr Egghead, Engineering Lead. Medium: Grook. Haiku 5.5 high: Career, Parenting, Sales. Medium: Mail Man, Schedule, Cable. T3 untouched.
+- 2026-11-11: Grok 4.7 was enabled (user). Grok bots moved from 4.5 to 4.7 with the same efforts. Grook stays Claude Sonnet 5.5 medium. T3 and pstack were untouched. Dr Egghead applies on its next turn.
+- 2026-11-11: Grook hourly-nudge v5 (user via Grook). Done or drop also clears matching brief lines and tells Career or Cable. Snooze unchanged. Focus still comes only from the pending list.
+- 2026-11-11: Grook review fixes (user). Dropped a stale row, refreshed the public record, dropped Notion, deleted Persona's stub. Parenting's digest and Friday check-in moved 15 minutes off the briefs.
+- 2026-11-11: The user deleted Persona. Record retired. Removed from the review cycle and from Grook, Career, and Sales routing. No voice owner. Sales and Career draft unless asked. The waiting file was cleared.
+- 2026-11-11: Waiting-skill pointers (user via Grook). Nine bots each gained one Waiting line. Five profiles near the length limit were tightened with no meaning lost. Parenting's account address was read back unchanged.
+- 2026-11-11: Models reset (user). Grook stays Claude Sonnet 5.5 medium. Others on Grok 4.5, high for Dr Egghead, Engineering Lead, Career, Parenting, Persona, and Sales, medium for the other three.
+- 2026-11-11: Waiting files (user). Nine bots record items only the user can do. The nudge reads them (v4), then fallbacks. Done clears the row. Career, Cable, Mail Man, and Parenting write lines.
+- 2026-11-11: Grook skill review (user, items 1-5). Daily Brief, Project Plan, and mail-to-vault left Grook. mail-to-vault stays on Mail Man. Archive skill matches the brief template.
+- 2026-11-11: Grook's brief and weeklies use the pending list (user). The first brief refreshes it quietly. Sunday cleanup prunes it. Dr Egghead gained read-only skill health every 3 days.
+- 2026-11-11: Grook gained hourly-nudge (user). One private four-tier list, one item an hour through the day, cooldowns by tier, quiet when nothing is eligible. On Grook only.
+- 2026-11-10: Partial move to Claude for the memory tool (user). Grook, Dr Egghead, and Engineering Lead to Sonnet 5.5. The other eight stay Grok 4.5. Not a full rollback.
+- 2026-11-10: Grook's archive and four briefs moved earlier (user). Some then shared a minute with Persona's Friday check and Parenting's digest and Friday check-in.
+- 2026-11-10: Site Audit merged into Sales (user). Sales gained the audit skills and an audits remit. Findings first. Pricing is later. No routines or saved audits. The user removes the bot.
+- 2026-11-10: Dr. Eggbot deleted after absorb into Dr Egghead (designer skills and rubric). A weekday transcript check stays paused. Site Audit skills still on Egghead belong on Site Audit.
+- 2026-11-10: Bot review became a daily cycle, one bot per day, not a finished queue. The routine stays paused until the user turns it on.
+- 2026-11-09: Books was renamed Cable (user). FINANCE.md moved to the notes-vault root. books-watch v4 and the weekly digest path were updated. Grook and Mail Man routing say Cable.
+- 2026-11-09: Books add-on (user). Three rules: learn patterns, keep one slim finance file, and keep only actionable lines. books-watch was revised. The weekly digest points at that file. No expense tracking.
+- 2026-11-09: Books remit corrected (user). It watches finance mail, not expenses or budgets. It indexes statements, dues, credit-limit notes, and unusual bank notices. books-watch replaced books-ledger.
+- 2026-11-09: New bot Books (user). Finance watcher from vault mail, Grok 4.5 high, Sunday digest. Grook routes money mail there. Mail text only, no bank login. No amounts in this repo.
+- 2026-11-09: Site Audit template refresh (user). Anchors, samples, evidence pack, skim versus fill, findings capped at 3 to 5, WCAG 2.2 AA, Method column. Vault copy is canonical.
+- 2026-11-09: Site Audit's working folder moved into the notes vault. The workspace keeps a symlink. The vault is canonical.
+- 2026-11-09: The site-audit skill became one orchestrator plus eight section skills. A full audit is still one command. Any section runs alone. Installed on Site Audit.
+- 2026-11-09: Site Audit gained a local site-audit skill. It writes audit.md and audit.json, a short Sales summary, and stops at findings and suggested offer ids. Installed on Site Audit only.
+- 2026-11-09: All ten bots moved to Grok 4.5 (user). High for engineering, design, jobs, household, and voice. Medium for the rest. Revert waits on subscription renewal.
+- 2026-11-09: Mail cleanup (user). Keep 3 days plus today. Older files go only after backup and approval of the list. Nothing deleted yet. Mail Man needs a profile line first.
+- 2026-11-09: Weekly routine check now reads run and cost aggregates, then deletes that copy. First read: seven failures, all missing prerequisites. Engineering and designer chats led the cost.
+- 2026-11-09: No mail backfill before the first copied day (user). Vault starts 2026-10-01 and later keeps a few days. Totals live on the job board. Older mail needs the user's go.
+- 2026-11-08: One bot copies mail into a private vault. Others read the copies. Career scans removed. Eight bots got mail-from-vault. Sunday review stays 15 minutes from Parenting's email.
+- 2026-11-08: The user moved Grook from the Sonnet tier to the smaller Haiku tier, still at high effort, to cut cost. It ran the mail copy, the four daily briefs, and the weekly routines.
+- 2026-11-08: User chose one file per email (local date and time, slug, hash, front matter, body cut at 20,000). Readers first. 1,264 files, 39 days. Four duplicates. Six day mismatches. Re-runs safe. Skill rev 4.
+- 2026-11-08: Copy status now counts per-email files per mailbox beside the daily count. Engineering merged it with the designer's go. A later run was clean. Read keys did not change.
+- 2026-11-08: pstack installed for every session on this computer, bots included (user). Auto-update off. Missing pin accepted. Multi-model roles removed. One settings file flipped back and is watched.
+- 2026-11-08: Dependents' mail stays out of the shared tool (user). Parenting saves browser reads to its folder. Copy script gains a folder source and manifest. Sunday delete only on a hash match.
+- 2026-11-08: Hourly mail copy moved from Grook to Mail Man (user). Full access, Computer Use off, never opens mail files. Copy did not stop. Grook kept brief, archive, and weeklies.
+- 2026-11-08: Mail Man created (Haiku, low, workspace-only) to triage three times a day to Grook. Copy stayed on Grook, hourly. A background job was dropped. Hourly copy exempt from the 15-minute rule.
+- 2026-11-08: Job tracking moved to one vault board from mail copies (user). Career dropped the app job tools and key. Weekday and weekly reads use the copies. Profile updated the same day.
+- 2026-11-08: Grook's brief runs four times a day, not once on weekdays. One live file. First run archives yesterday. Reads copies, the dashboard, and bot reports. Duplicate brief removed.
+- 2026-11-08: Engineering Lead's coding skills were removed because T3 writes the code. Pull-request follow-up stays. Moving those skills to the T3 side is planned, not done.
+- 2026-11-08: A duplicate weekday brief on Grook was removed. Its own routine stays.
+- 2026-11-08: Code Auditor merged into Engineering Lead (user) and was removed. Audits and deploys return PASS, FAIL, or INCOMPLETE. The user reviews every fail. Fleet was then nine bots.
+- 2026-11-07: Code Auditor review. Stale history and a hardcoded repo removed. INCOMPLETE added. Diff review stays with Engineering Lead. Change Review removed. No routines. Queue finished.
+- 2026-11-06: Reminders app retired. Parenting tracks household to-dos in a private file and shows them in digests. Profile and four routines updated the same day.
+- 2026-11-06: Routines recreated for Grook, Career, Schedule, and Sales. Parenting's five refreshed. Off-job skills removed. Stale names fixed. Six profiles gained a target check.
+- 2026-11-06: These records moved into their own public repo with fresh history and generic wording. A daily sync was added.
+- 2026-11-06: Site Audit review. Stays dormant, stops at findings, no pitch or offer picks. Unknowns are P2. A re-audit is a new file. Short summary to Sales. Six unrelated skills removed.
+- 2026-11-06: Persona review applied. The weekly check was recreated. Outreach rules were added. The split with Sales was stated. The reporting line was corrected.
+- 2026-11-06: Schedule, Parenting, and Grook may write the user's calendar after a dry run. No invites, no other people's events, no dependents' accounts. Replaces per-item delete approval.
+- 2026-11-05: Career and Schedule got read-only access to the user's mail and calendar through a local read-only tool.
+- 2026-11-05: Engineering Lead may push docs, specs, and mocks to main. App code stays on a branch the user merges. Code goes through T3. This bot reviews, tests, and opens the pull request.
+- 2026-11-05: QA merged into Audit Engineer and was renamed Code Auditor. A second designer bot merged into Dr Egghead and was removed.
+- 2026-11-05: Grook's profile gained a routing section. Owner first, delegate once, one consolidated answer.
+- 2026-11-05: The fleet moved onto the current platform with one profile per bot.
