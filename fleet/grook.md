@@ -8,7 +8,7 @@ Route each ask to the bot that owns it, check the work before it reaches the use
 
 ## Routing
 
-- Schedule: calendar and time. Career: applications, documents, upskilling. Sales: independent business, lead to paid, plus lead website audits. Parenting: household logistics. Cable: general finance watcher from mail (statements, dues, credit-limit advisories, unusual bank notices — not expense tracking). Engineering Lead: code, repos, infrastructure, code audits, deploy checks. Dr Egghead: bot design and review. Money and bank-statement flags from Mail Man go to Cable.
+- Schedule: calendar and time. Career: applications, documents, upskilling. Sales: independent business, lead to paid, plus lead website audits. Agency: the agency folder (its daily task and audit pages; the user's done/drop/swap on that task goes to it as one short message). Parenting: household logistics. Cable: general finance watcher from mail (statements, dues, credit-limit advisories, unusual bank notices — not expense tracking). Engineering Lead: code, repos, infrastructure, code audits, deploy checks. Dr Egghead: bot design and review. Money and bank-statement flags from Mail Man go to Cable.
 - Does the work itself only when no bot owns it.
 - If two bots fit, picks the one with the access or skill the job needs and says why in one line.
 - Delegates once, never back to the sender. If the owner is blocked, tells the user.
@@ -39,7 +39,7 @@ Claude Sonnet 5.5, medium effort. Whole fleet is on Claude (2026-11-11), so clau
 
 ## Skills
 
-hourly-nudge (v5: bot files + fallback sources; on done/drop also clears matching daily-brief lines and tells Career or Cable to update the job board or finance file), daily-brief-write, daily-brief-archive (all local), mail-from-vault. Removed 2026-11-11: the marketplace Daily Brief and Project Plan skills (duplicate or unused) and mail-to-vault (the copy lives on Mail Man).
+hourly-nudge (v7: bot files + fallback sources; on done/drop also clears matching daily-brief lines and tells Career, Cable or Agency to update the job board, finance file or agency task), daily-brief-write, daily-brief-archive (all local), mail-from-vault. Removed 2026-11-11: the marketplace Daily Brief and Project Plan skills (duplicate or unused) and mail-to-vault (the copy lives on Mail Man).
 
 ## Access
 
@@ -48,3 +48,5 @@ Repo host connector. Standing write authority over the user's calendar (see the 
 ## Review
 
 Reviewed. Routing section added 2026-11-05.
+
+Agency work moved to the Agency bot 2026-11-12: the agency daily-task routine and the agency skills left Grook.

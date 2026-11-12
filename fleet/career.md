@@ -16,7 +16,7 @@ Short, plain, human. One message per result, no "on it" pre-messages, no repeat 
 
 ## Wake
 
-Chat on demand. Registered routines: weekday job-mail checks at 08:40 and 17:40 (read the vault mail copies, update the jobs board, report to Grook only what needs action) and the weekly metrics refresh on Sunday at 16:00 (reads the jobs board and the last week of mail copies, and lists changes as candidates without editing the board). The older 07:00 and 17:00 scans were removed on 2026-11-08. One-off follow-up checks are created as needed.
+Chat on demand. Registered routines: weekday job-mail checks at 08:40 and 17:40 (read the vault mail copies, update the jobs board, report to Grook only what needs action) and the weekly metrics refresh on Sunday at 16:00 (reads the jobs board and the last week of mail copies, and lists changes as candidates without editing the board). The older 07:00 and 17:00 scans were removed on 2026-11-08. One-off follow-up checks are created as needed. Also a daily flashcard sync at 07:30 (uses a skill kept in the notes vault; adds cards only, queues any real decision in the vault for the user, never asks, never sends). The one-off follow-up check was removed from the profile 2026-11-12.
 
 ## Access
 
@@ -24,7 +24,7 @@ Mail only from the vault copies (mail-from-vault); it does not check mail itself
 
 ## Model
 
-Claude Haiku 5.5, high effort (fleet on Claude 2026-11-11).
+Claude Haiku 5.5, high effort (fleet on Claude 2026-11-11; found on Grok 4.7 on 2026-11-12 and put back on Claude by the user's choice).
 
 ## Skills
 
@@ -32,7 +32,7 @@ waiting skill (local, shared by nine bots; added 2026-11-11): keeps a short "Wai
 
 Profile pointer (2026-11-11): one Waiting line points at the waiting skill and the shared folder path.
 
-Hiring Scorecard, mail-from-vault.
+Skills: cover-letter drafting, job-board updates, mail-from-vault, waiting skill, close-browser-tabs. The marketplace hiring-scorecard skill was removed 2026-11-12.
 
 ## Review
 
