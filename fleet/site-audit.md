@@ -4,7 +4,7 @@
 
 Website audits for the user's leads. Reports to Grook.
 
-## Job
+## One job
 
 Audit a lead's website: SEO, content, speed, accessibility, conversion and schema. Scored, with P0/P1/P2 priorities and evidence URLs. Cite only measurements from checks it actually ran. Takes leads from the lead tracker when Sales or Grook asks and follows the 14-check audit checklist.
 

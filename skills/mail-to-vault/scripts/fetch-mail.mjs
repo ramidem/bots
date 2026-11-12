@@ -7,11 +7,11 @@
 // --out      folder that receives YYYY-MM-DD-mail.md files (created if missing)
 // --account  Gmail address to read (needed only when several accounts are signed in to calma)
 // --days     refresh today and the N-1 days before it (default 2)
-// --from/--to  backfill an inclusive range of Manila dates
+// --from/--to  backfill an inclusive range of dates in the user's local time zone
 // --label    label written to the front matter (default: folder name)
 // Env: CALMA_PATH (default $HOME/Code/<owner>/calma/calma.mjs)
 //
-// Days are Manila days (UTC+8). Each run rebuilds the whole day file, so reruns are safe.
+// Days are dates in the user's local time zone. Each run rebuilds the whole day file, so reruns are safe.
 // Prints one JSON summary line. Attachments are never downloaded; their names are reported.
 
 import { execFile } from "node:child_process";

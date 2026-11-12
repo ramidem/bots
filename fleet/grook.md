@@ -2,7 +2,7 @@
 
 The user's single front door.
 
-## Job
+## One job
 
 Route each ask to the bot that owns it, check the work before it reaches the user, and give one consolidated stream instead of many bots pinging. Writes a daily brief to the notes vault (`DAILY.md` at the vault root); the pending list lives in its own folder.
 
@@ -31,7 +31,7 @@ Keeps one private file of everything the user owes, sorted into four tiers (P1 n
 
 ## Wake
 
-Chat on demand. Registered routines: hourly nudge every day at minute 50 from 07:50 to 22:50 (reads the bots' Waiting on the user files, then the fallback sources listed in the pending file, and sends the user one item at most; cooldowns P1 2h, P2 4h, P3 8h, P4 24h; quiet when the file is empty or every item is cooling down; never contacts anyone but the user), daily brief archive at 05:40 (moved from 07:40 on 2026-11-10; not the mail copy: that moved to Mail Man on 2026-11-08), daily brief four times a day at 06:00, 12:00, 15:00 and 18:00 (moved on 2026-11-10; the 06:00 run first refreshes the pending file with no message, then every run builds Focus and the jobs count from the pending file only, not from the job board, finance file or bot reports; the live daily file sits at the vault root and the previous day's is archived at 05:40), Sunday cleanup 10:00 (prunes the pending file: stale, duplicate, long-snoozed rows; lists them, removes nothing without the user's yes), Sunday weekend review 20:45 (Done this week from the cleared-items file, Top 3 from the pending file; moved from 20:30 on 2026-11-08 to stay 15 minutes clear of another bot's evening email). Mail Man owns the mail copy. The brief reads calendar events and the vault mail copies (sender, subject and time only) and never opens message bodies.
+Chat on demand. Registered routines: hourly nudge through the day (reads the bots' Waiting on the user files, then the fallback sources listed in the pending file, and sends the user one item at most; cooldowns P1 2h, P2 4h, P3 8h, P4 24h; quiet when the file is empty or every item is cooling down; never contacts anyone but the user), daily brief archive once each morning (moved earlier on 2026-11-10; the mail copy moved to Mail Man on 2026-11-08), daily brief four times a day (moved on 2026-11-10; the first run of the day refreshes the pending file with no message, then every run builds Focus and the jobs count from the pending file only, not from the job board, finance file or bot reports; the live daily file sits at the vault root and the morning archive keeps the previous day), Sunday cleanup (prunes the pending file: stale, duplicate, long-snoozed rows; lists them, removes nothing without the user's yes), Sunday weekend review (Done this week from the cleared-items file, Top 3 from the pending file; moved on 2026-11-08 to stay 15 minutes clear of another bot's evening email). Mail Man owns the mail copy. The brief reads calendar events and the vault mail copies (sender, subject and time only) and never opens message bodies.
 
 ## Model
 
@@ -43,7 +43,7 @@ hourly-nudge (v7: bot files + fallback sources; on done/drop also clears matchin
 
 ## Access
 
-Repo host connector. Standing write authority over the user's calendar (see the README changelog).
+Repo host connector. Standing write authority over the user's calendar (see [CHANGELOG.md](../CHANGELOG.md)).
 
 ## Review
 

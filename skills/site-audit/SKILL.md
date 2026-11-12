@@ -33,7 +33,7 @@ Run the full audit by calling the section skills in order. Human report and mach
 | JSON shape | `<app-repo>/src/lib/domain/audit-schema.ts` |
 | Shape example | `<app-repo>/audits/<example-lead>/` |
 
-`<lead>` is a short slug (lowercase, hyphens). Re-audit: `audits/<lead>-YYYY-MM-DD/` (Manila date).
+`<lead>` is a short slug (lowercase, hyphens). Re-audit: `audits/<lead>-YYYY-MM-DD/` (the date in the user's local time zone).
 
 **Layout vs fill order.** Finished Sales skim puts the 14 table above the Auditor appendix. Probe checklists live in the appendix. Auditor fill order is still: sample pages → probes (appendix) → area scores → Findings 14 → extras → measurements → close.
 

@@ -20,8 +20,8 @@ Mail is copied into the vault by one hourly job (run by Mail Man). Read those co
 
 Every mailbox folder is flat. Each hourly run writes BOTH kinds for the same emails, so you can use either. There is no switch day.
 
-1. **Day file**, one per day: `YYYY-MM-DD-mail.md` (Manila date). Good for the list of the day. Front matter (`date`, `total_emails`, `with_attachments`), then one `## [HH:MM AM] Subject` section per email with From, To, Cc, Date, Thread, Labels, optional Attachments, then the body.
-2. **One file per email**: `YYYY-MM-DD-HHMM-<subject-slug>-<hash6>.md`, with the Manila date and time in the name, for example `2026-11-08-1501-some-subject-a1b2c3.md`. Good for the detail. Front matter (`subject`, `from`, `to`, `date` in ISO UTC, `tags`), then a `# Subject` title, `**From:**`, `**To:**`, `**Date:**` (Manila time) and, only when the email has attachments, an `**Attachments:**` line (names only), a rule, and the full body. A Gmail body cut at 20,000 characters ends with `[body truncated at 20000 characters]`.
+1. **Day file**, one per day: `YYYY-MM-DD-mail.md` (the date in the user's local time zone). Good for the list of the day. Front matter (`date`, `total_emails`, `with_attachments`), then one `## [HH:MM AM] Subject` section per email with From, To, Cc, Date, Thread, Labels, optional Attachments, then the body.
+2. **One file per email**: `YYYY-MM-DD-HHMM-<subject-slug>-<hash6>.md`, with the date and time in the user's local time zone in the name, for example `2026-11-08-1501-some-subject-a1b2c3.md`. Good for the detail. Front matter (`subject`, `from`, `to`, `date` in ISO UTC, `tags`), then a `# Subject` title, `**From:**`, `**To:**`, `**Date:**` (the user's local time zone) and, only when the email has attachments, an `**Attachments:**` line (names only), a rule, and the full body. A Gmail body cut at 20,000 characters ends with `[body truncated at 20000 characters]`.
 
 Most days have both kinds (the older days were converted on 2026-11-08). If a day has no per-email files, use its day file.
 

@@ -36,7 +36,7 @@ UnionBank senders/domains and subjects: `unionbankph.com`, `statement.unionbankp
 3. Classify each hit: `statement` | `expense` | `transfer` | `payment` | `advisory` | `other`. Drop OTP/login/confirm noise.
 4. For each new item (mail path not already in the ledger): append one table row — date, source, type, amount if present in subject/body text else `—`, short note, vault-relative mail path.
 5. E-statement with attachment: still add a **statement** row from subject (period, product name, last-4 if in subject); note "PDF not parsed".
-6. Update **Metrics** counts and **Last scan** (Manila ISO date-time). Append a one-line **Log** entry.
+6. Update **Metrics** counts and **Last scan** (ISO date-time in the user's local time zone). Append a one-line **Log** entry.
 7. Deduplicate strictly by mail path.
 
 ## Weekly quiet digest (to Grook only)

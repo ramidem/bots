@@ -1,7 +1,7 @@
 # Website audit: {{LEAD_NAME}}
 
 - **URL:** {{AUDITED_URL}}
-- **Audit date:** {{YYYY-MM-DD}} (Asia/Manila)
+- **Audit date:** {{YYYY-MM-DD}} (the user's local time zone)
 - **Auditor:** Site Audit
 - **Checklist:** Offers Tracker > Audit checklist, 14 checks, read {{CHECKLIST_READ_DATE}}
 - **Lead context:** {{1–3 sentences: industry, category, size if known, hypothesis}}

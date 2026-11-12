@@ -58,7 +58,7 @@ UnionBank: `unionbankph.com`, `statement.unionbankph.com`.
 5. E-statement with attachment: still add a review-statement row from subject; note "PDF not parsed".
 6. If the same bank/statement window/due cadence repeats, update **Patterns** one line. Do not invent from a single sighting beyond a tentative note.
 7. Prune: when the owner has paid/reviewed or a due is past and no longer useful, move the row to Done/pruned then delete soon. Keep Action needed short.
-8. Update **Last scan** (Manila ISO) and a one-line **Log** under Meta. Deduplicate by mail path.
+8. Update **Last scan** (ISO date-time in the user's local time zone) and a one-line **Log** under Meta. Deduplicate by mail path.
 
 ## Weekly quiet digest (to Grook only)
 

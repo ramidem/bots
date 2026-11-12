@@ -2,8 +2,8 @@
 name: Cover letter drafting
 description: Drafts a short, tailored cover letter for a specific company from
   the user's vault CV notes, shown in chat only. Use when the owner asks for a
-  cover letter for an application, including relocation and start-date lines and
-  the CV link.
+  cover letter for an application, including the relocation and start-date
+  lines when the owner has set them in <owner-facts>, and the CV link.
 ---
 
 ## Goal
@@ -21,11 +21,11 @@ Draft a cover letter for one application. Show it in chat only. Do not save, sen
 - Use exactly four short paragraphs: experience with the company, specific contributions, a line on AI-assisted work and learning, then the closing lines.
 - Name the real systems, products and teams from the notes, using the names the user confirmed. A wrong product name is a worse error than a vague one.
 - Claim only work the user has confirmed. If he has said he did not do something, leave it out even if a note mentions it, because the notes can be out of date.
-- Include the relocation line (he is willing to relocate) and the start-date line (he can start immediately), then the CV link https://ramidem.github.io/CV.
+- Include the relocation and start-date lines when the owner has set them in <owner-facts>, then the CV link https://ramidem.github.io/CV.
 - Do not put the user's email address, private personal data, reasons for leaving a past job, or other sensitive details in the letter.
 
 ## Output and checks
 - Show the letter in chat with a short note: facts sourced, anything missing (such as the role title), and that nothing was saved or sent.
-- Before showing it, check: four paragraphs, no self-introduction, every named system and claim traced to a note or to the user's own confirmation, relocation and start lines present, CV link present, sign-off with the user's name.
+- Before showing it, check: four paragraphs, no self-introduction, every named system and claim traced to a note or to the user's own confirmation, relocation and start-date lines present when the owner has set them in <owner-facts>, CV link present, sign-off with the user's name.
 - If the user asks for changes, revise the whole letter and show it again in full, keeping any wording he has already approved unchanged.
 - Keep the chat reply short. No pre-messages or repeat confirmations.

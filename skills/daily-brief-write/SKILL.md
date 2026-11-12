@@ -1,13 +1,13 @@
 ---
 name: Daily brief write
-description: Write the owner's slim daily brief to notes/DAILY.md (Header, Focus, Today, Links only), with Focus and the jobs count taken from PENDING.md. Use on the Manila daily-brief routine (06:00, 12:00, 15:00, 18:00) or when asked to refresh the daily brief.
+description: Write the owner's slim daily brief to notes/DAILY.md (Header, Focus, Today, Links only), with Focus and the jobs count taken from PENDING.md. Use on the daily-brief routine, four times a day in the user's local time zone, or when asked to refresh the daily brief.
 ---
 
 # Daily brief write
 
 Write the owner's Obsidian vault brief at `<notes-vault>/DAILY.md`. Read-only except `DAILY.md` (and `PENDING.md`/`pending-cleared.json` when the morning refresh runs). Archiving is a separate skill: never archive here.
 
-Schedule (Manila): archive 05:40; brief 06:00, 12:00, 15:00, 18:00; hourly nudge 07:50 to 22:50. The archive runs first, so the 06:00 run starts from a fresh file.
+Schedule, in the user's local time zone: archive once each morning, brief four times a day, hourly nudge through the day. The archive runs first, so the first brief of the day starts from a fresh file.
 
 ## Layout (only these sections)
 
@@ -45,23 +45,23 @@ After handling (a) or (c), mark the line `**notes-done**`. Never delete notes. N
 - If the file's Date is before today, send the message `daily brief not archived yet; run daily-brief-archive` and stop. Reason: writing onto yesterday's file corrupts the archive trail.
 - If the file is missing, create it from the template.
 
-### Step 2: Refresh (06:00 run only)
-Run the `hourly-nudge` skill's "Refresh only" mode: it syncs `PENDING.md` from its sources with no message to the owner. The first nudge is at 07:50, so without this the morning brief would read yesterday's file. Other runs skip this step: the hourly nudge keeps the file current.
+### Step 2: Refresh (first brief of the day only)
+Run the `hourly-nudge` skill's "Refresh only" mode: it syncs `PENDING.md` from its sources with no message to the owner. The first nudge is later the same morning, so without this the morning brief would read yesterday's file. Other runs skip this step: the hourly nudge keeps the file current.
 
 ### Step 3: Gather (read-only)
 - `PENDING.md`: the top P1 and P2 rows, and the count of rows whose Source contains `JOB:`. Do not read JOBBOARD, FINANCE or bot reports directly; `PENDING.md` already holds what they contribute.
-- Calendar: `node ~/Code/<owner>/calma/calma.mjs calendar-week .` for today plus 48 hours, Manila time. Never run calma auth, uninstall, create, update, or delete; never read `~/.config/calma`. Reason: this skill must not change the calendar or credentials.
+- Calendar: `node ~/Code/<owner>/calma/calma.mjs calendar-week .` for today plus 48 hours, in the user's local time zone. Never run calma auth, uninstall, create, update, or delete; never read `~/.config/calma`. Reason: this skill must not change the calendar or credentials.
 - Mail freshness: `personal/mail/.status.json` through mail-from-vault (ok and finished_at only), and today's mail file path for Links.
 - Notion: only if tools are connected; otherwise skip.
 
 ### Step 4: Write once
-- Set the Last updated line to the actual run time from `date`, in Manila time. Never hardcode a time or copy a timestamp from an earlier brief. Reason: a fixed or copied time misreports when the brief was really written.
+- Set the Last updated line to the actual run time from `date`, in the user's local time zone. Never hardcode a time or copy a timestamp from an earlier brief. Reason: a fixed or copied time misreports when the brief was really written.
 - Write the full content to a temp file, then rename it over `DAILY.md`. Reason: partial writes leave a broken brief mid-routine.
 - Verify that the first 12 lines match Header plus the start of Focus.
 
 ## Report to the owner
 
-- Morning run (06:00 window, up to 06:30): up to 8 lines covering Focus, key meetings, and notes needing action.
+- Morning run (the first brief of the day): up to 8 lines covering Focus, key meetings, and notes needing action.
 - Other runs: up to 3 lines only if action is needed, there is a new Focus item, or a step failed. Otherwise reply `routine_no_update`.
 - Never send, draft, or reply outside updating `DAILY.md`.
 

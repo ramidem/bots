@@ -27,9 +27,9 @@ Use `PATH=$HOME/.local/node/bin:$PATH` if `node` is not found. The script is `sc
 - Scheduled refresh (today and yesterday, so late mail is never lost):
   `node scripts/fetch-mail.mjs --out "<vault>/personal/mail/me" --label me --days 2`
 - Another account: add `--account <address>` and use that mailbox's folder and label.
-- Backfill: `--from 2026-10-01 --to 2026-11-08` (Manila dates, inclusive).
+- Backfill: `--from 2026-10-01 --to 2026-11-08` (dates in the user's local time zone, inclusive).
 
-Each run rebuilds the day files, so reruns are safe and unchanged files are not rewritten. Days are Manila days. Gmail lists 20 messages per search; the script splits the day into time windows to get all of them.
+Each run rebuilds the day files, so reruns are safe and unchanged files are not rewritten. Days are dates in the user's local time zone. Gmail lists 20 messages per search; the script splits the day into time windows to get all of them.
 
 ## What each file holds
 

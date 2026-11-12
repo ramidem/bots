@@ -6,7 +6,7 @@ example-prompt: Run the mail cleanup dry run.
 
 # Clean old mail copies
 
-The script is `mail-cleanup.py` in `~/Code/<owner>/mail-to-vault` (main). It keeps files whose date in the file name is the Manila date three days back or newer, in each Gmail mailbox folder under `personal/mail/`, and deletes older ones after a backup. It skips the family members' folders, `.copied.json`, `.status.json`, temp files, subfolders and everything that is not a mail file.
+The script is `mail-cleanup.py` in `~/Code/<owner>/mail-to-vault` (main). It keeps files whose date in the file name is the date in the user's local time zone three days back or newer, in each Gmail mailbox folder under `personal/mail/`, and deletes older ones after a backup. It skips the family members' folders, `.copied.json`, `.status.json`, temp files, subfolders and everything that is not a mail file.
 
 Run it with `/usr/bin/python3`. The config is `~/.config/mail-to-vault/config.json`.
 

@@ -1,11 +1,11 @@
 ---
 name: daily-brief-archive
-description: Archive the owner's live DAILY.md from his notes vault into briefs/YYYY-MM-DD-brief.md in the brief format (updates, went well, can be improved, went wrong, next), then start a new DAILY.md for today from the template. Use once each morning at 05:40 Manila, or when the owner asks. Only touches those two vault files.
+description: Archive the owner's live DAILY.md from his notes vault into briefs/YYYY-MM-DD-brief.md in the brief format (updates, went well, can be improved, went wrong, next), then start a new DAILY.md for today from the template. Use once each morning, in the user's local time zone, or when the owner asks. Only touches those two vault files.
 ---
 
 # Archive the daily brief
 
-Outcome: yesterday's day is kept as `briefs/D-brief.md` (D = the date in the old DAILY.md), and `DAILY.md` is a fresh file for today. The four daily-brief runs (06:00, 12:00, 15:00, 18:00) keep updating DAILY.md during the day; this skill runs once each morning at 05:40, before the 06:00 brief.
+Outcome: yesterday's day is kept as `briefs/D-brief.md` (D = the date in the old DAILY.md), and `DAILY.md` is a fresh file for today. The four daily-brief runs keep updating DAILY.md during the day. This skill runs once each morning, before the first brief.
 
 Vault: `<notes-vault>`. Template: `~/OpenBot/Agents/<ceo-agent>/daily-brief-template.md`.
 
@@ -13,7 +13,7 @@ DAILY.md sections: Header (Date, Primary Goal, Last updated), Focus, Today (Done
 
 ## Steps
 
-1. Run `date` for today's Manila date. Read the `**Date:**` line of `DAILY.md` (call it D). If the file is missing, create it from the template for today and stop.
+1. Run `date` for today's date in the user's local time zone. Read the `**Date:**` line of `DAILY.md` (call it D). If the file is missing, create it from the template for today and stop.
 2. If D is today, stop: nothing to archive.
 3. If D is later than today, stop and report one line: the clock or the file is wrong.
 4. If `briefs/D-brief.md` already exists, do not overwrite it and do not change DAILY.md. Report one line to the owner and stop.
@@ -45,7 +45,7 @@ DAILY.md sections: Header (Date, Primary Goal, Last updated), Focus, Today (Done
    Keep it short, one fact per bullet. No contact details, no emails, no phone numbers, no family members' names beyond what calendar titles show. Job items stay as one link to `jobs/JOBBOARD.md`; never copy job details.
 7. Write a new `DAILY.md` for today from the template (Header, Focus, Today, Links only):
    - Header: today's date, a placeholder Primary Goal, Last updated with the current time.
-   - Focus: unchecked items carry over as ♺ Rollover (max 5). Done items are dropped. The 06:00 brief run rebuilds Focus from the pending list.
+   - Focus: unchecked items carry over as ♺ Rollover (max 5). Done items are dropped. The first brief of the day rebuilds Focus from the pending list.
    - Today: Done "none yet", Jobs needing you and Mail left for the brief run to fill.
    - Links unchanged.
    - Keep a `## 📅 Weekly review` section only if the old file had one; do not edit it.
