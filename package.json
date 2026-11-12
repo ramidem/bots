@@ -1,0 +1,13 @@
+{
+  "name": "bots",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "leak-check": "node scripts/leak-check.mjs"
+  }
+}

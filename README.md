@@ -25,4 +25,4 @@ Public, generic records of one OpenBot agent fleet. Each file says what that bot
 - `test/` holds the leak-check tests.
 - `docs/` holds the standing rules, the design method, the leak check, and the fleet overview.
 
-See [the standing rules](docs/standing-rules.md), [design and review](docs/design-and-review.md), [the leak check](docs/leak-check.md), [the fleet overview](docs/fleet-overview.md), and [CHANGELOG.md](CHANGELOG.md).
+See [the standing rules](docs/standing-rules.md), [design and review](docs/design-and-review.md), [the leak check](docs/leak-check.md), [the fleet overview](docs/fleet-overview.md), [CONTRIBUTING.md](CONTRIBUTING.md), [CHANGELOG.md](CHANGELOG.md), and [LICENSE](LICENSE).
