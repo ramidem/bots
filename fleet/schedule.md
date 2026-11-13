@@ -28,7 +28,7 @@ Calendar write with no guest invites. Standing write authority over the user's c
 
 ## Model
 
-Claude Haiku 5.5, medium effort (fleet on Claude 2026-11-11).
+Grok 4.7, high effort (whole fleet on Grok 4.7, 2026-11-13; effort was already high on the previous model).
 
 ## Skills
 

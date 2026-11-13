@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-13: Whole fleet on Grok 4.7 (user). High effort: Dr Egghead, Engineering Lead, Career, Parenting, Sales, Schedule, Agency. Medium: Grook, Mail Man, Cable. Schedule kept the high effort it already had. Claude plugins stay available because Grok loads the Claude plugin install list. T3 and pstack were not moved. Dr Egghead's effort applies from its next turn.
 - 2026-11-13: Skill ownership (user). Dr Egghead now owns every skill update; bots send wording to it. Calma entry points were renamed after its TypeScript port: `calma.mjs` is now `src/calma.ts` and `calma-write.mjs` is `src/calma-write.ts`. Daily-brief-archive, daily-brief-write, mail-to-vault, calendar-event-cleanup and calma-calendar-writes were updated and installed. Site-audit-report now reports the run range and leads with a checkable asset.
 - 2026-11-12: Job bot (user) moved back to Claude Haiku 5.5, high effort, from Grok 4.7. The profile dropped the expired one-off follow-up and listed the daily flashcard sync.
 - 2026-11-12: Skill health on the job bot (user) removed the marketplace hiring-scorecard skill. It plans employer interview loops, and this bot is the candidate.

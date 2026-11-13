@@ -26,7 +26,7 @@ Chat on demand (audits included). Registered routines: weekly lead scan on Monda
 
 ## Model
 
-Claude Haiku 5.5, high effort (fleet on Claude 2026-11-11; site audits).
+Grok 4.7, high effort (whole fleet on Grok 4.7, 2026-11-13; site audits).
 
 ## Skills
 

@@ -24,7 +24,7 @@ Chat on demand when Grook routes money mail. Registered routine: weekly quiet di
 
 ## Model
 
-Claude Haiku 5.5, medium effort (fleet on Claude 2026-11-11; one quiet weekly digest).
+Grok 4.7, medium effort (whole fleet on Grok 4.7, 2026-11-13; one quiet weekly digest).
 
 ## Skills
 

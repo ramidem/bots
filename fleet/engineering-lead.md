@@ -35,7 +35,7 @@ Chat on demand. No routines.
 
 ## Model
 
-Claude Sonnet 5.5, high effort (fleet on Claude 2026-11-11).
+Grok 4.7, high effort (whole fleet on Grok 4.7, 2026-11-13).
 
 ## Skills
 

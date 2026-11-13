@@ -35,7 +35,7 @@ Chat on demand. Registered routines: hourly nudge through the day (reads the bot
 
 ## Model
 
-Claude Sonnet 5.5, medium effort. Whole fleet is on Claude (2026-11-11), so claude-mem sees every bot.
+Grok 4.7, medium effort. Whole fleet is on Grok 4.7 (2026-11-13). Claude plugins still load: Grok reads the Claude plugin install list, including claude-mem and pstack.
 
 ## Skills
 

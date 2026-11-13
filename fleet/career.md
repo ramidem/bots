@@ -24,7 +24,7 @@ Mail only from the vault copies (mail-from-vault); it does not check mail itself
 
 ## Model
 
-Claude Haiku 5.5, high effort (fleet on Claude 2026-11-11; found on Grok 4.7 on 2026-11-12 and put back on Claude by the user's choice).
+Grok 4.7, high effort (whole fleet on Grok 4.7, 2026-11-13).
 
 ## Skills
 

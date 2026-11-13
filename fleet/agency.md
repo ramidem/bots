@@ -1,6 +1,6 @@
 # Agency
 
-Owns the owner's agency folder in the notes vault. Reports to Grook. Runs on Grok 4.7 (high effort) on purpose: all agency work lives in this one bot, so no other bot has to switch models mid-task (a model change only applies from a bot's next turn).
+Owns the owner's agency folder in the notes vault. Reports to Grook. Runs on Grok 4.7 (high effort), same as the rest of the fleet (2026-11-13). All agency work stays in this one bot.
 
 ## One job
 

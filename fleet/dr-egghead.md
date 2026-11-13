@@ -29,7 +29,7 @@ transcript-healthcheck on weekdays exists but stays paused. Absorbed from Dr. Eg
 
 ## Model
 
-Claude Sonnet 5.5, high effort (fleet on Claude 2026-11-11; applies from the next turn).
+Grok 4.7, high effort (whole fleet on Grok 4.7, 2026-11-13; applies from the next turn).
 
 ## Skills
 
