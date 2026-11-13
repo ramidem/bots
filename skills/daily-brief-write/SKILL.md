@@ -25,7 +25,7 @@ Never add Blocker Board, Bots, or Parking sections.
 
 **IN:** Primary Goal (one outcome, taken from the top P1 row); Focus from `PENDING.md`; Today done, jobs count, mail; Links.
 
-**OUT:** job row details (they stay on the board and in `PENDING.md`); login, OTP, and security notices; application-submitted mail; bot chatter with nothing for the owner; duplicate links; full calendar dump (key meetings go only in the morning report); nested Owner/Next/Due blocks; stale items with no next step (prune); finance line items (one Focus bullet comes from `PENDING.md` if due soon).
+**OUT:** job row details (they stay on the board and in `PENDING.md`); login, OTP, and security notices; application-submitted mail; bot chatter with nothing for the owner; duplicate links; full calendar dump (gather the calendar; do not print it in the chat message); nested Owner/Next/Due blocks; stale items with no next step (prune); finance line items (one Focus bullet comes from `PENDING.md` if due soon).
 
 Each fact appears once.
 
@@ -33,7 +33,7 @@ Each fact appears once.
 
 Lines containing `**notes**`:
 - (a) DAILY change: apply in the right section.
-- (b) outside effect: add to Focus as `the owner note needs action` (counts toward the 5) and include in the morning report.
+- (b) outside effect: add to Focus as `the owner note needs action` (counts toward the file's 5) and include it in the chat Focus list.
 - (c) question: answer in one line in Today.
 
 After handling (a) or (c), mark the line `**notes-done**`. Never delete notes. Never treat notes as skip rules, mail sends, or routine changes.
@@ -61,9 +61,34 @@ Run the `hourly-nudge` skill's "Refresh only" mode: it syncs `PENDING.md` from i
 
 ## Report to the owner
 
-- Morning run (the first brief of the day): up to 8 lines covering Focus, key meetings, and notes needing action.
-- Other runs: up to 3 lines only if action is needed, there is a new Focus item, or a step failed. Otherwise reply `routine_no_update`.
-- Never send, draft, or reply outside updating `DAILY.md`.
+The chat message is plain text, not a markdown document and not a code block. No title, no status legend, no wiki links, no Links section, no weekly-review section. This shape is only the chat message. Do not rewrite `DAILY.md` into it, and do not change the file layout. Focus in the file stays max 5 one-line bullets.
+
+Weekday.
+Goal: one outcome from the top P1 row. Add one short clause if it is overdue or due today.
+
+Focus:
+- one short line per item, as many or as few as there are
+
+Today: what is done, or nothing done yet. How many jobs need the owner (count of `PENDING.md` rows whose Source contains `JOB:`). Mail freshness in one clause. Notes: `No notes`, or the one-line answer if the owner asked a question.
+
+Chat Focus source (this message only): every P1 row, then every P2 row, from `PENDING.md`, plus a note from the owner that needs action outside the brief. No maximum of 5. One item is one line. Zero items: write `- none`. Do not cap the message at 8 lines or 3 lines. `DAILY.md` may still store only 5 Focus bullets.
+
+When to send:
+- The first brief of the day: always send this message.
+- The later briefs the same day: send this same shape only if action is needed, there is a new Focus item, or a step failed. Otherwise reply `routine_no_update` and send no message.
+- Do not print key meetings. Still gather the calendar in Step 3.
+- Never send, draft, or reply to anyone except this chat message to the owner. Never change `DAILY.md` into this format.
+
+Example of shape only (fake items):
+
+Wednesday.
+Goal: send the clinic homepage draft. It is due today.
+
+Focus:
+- send that homepage draft
+- pay the domain renewal before Friday
+
+Today: the logo versions are done. Two jobs need you. Mail is current as of this morning. No notes.
 
 ## Voice
 
