@@ -9,7 +9,7 @@
 // --days     refresh today and the N-1 days before it (default 2)
 // --from/--to  backfill an inclusive range of dates in the user's local time zone
 // --label    label written to the front matter (default: folder name)
-// Env: CALMA_PATH (default $HOME/Code/<owner>/calma/calma.mjs)
+// Env: CALMA_PATH (default $HOME/Code/<owner>/calma/src/calma.ts)
 //
 // Days are dates in the user's local time zone. Each run rebuilds the whole day file, so reruns are safe.
 // Prints one JSON summary line. Attachments are never downloaded; their names are reported.
@@ -19,7 +19,7 @@ import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import { homedir } from "node:os";
 import { basename, join, resolve } from "node:path";
 
-const CALMA = process.env.CALMA_PATH || join(homedir(), "Code/<owner>/calma/calma.mjs");
+const CALMA = process.env.CALMA_PATH || join(homedir(), "Code/<owner>/calma/src/calma.ts");
 const TZ = "Asia/Manila";
 const OFFSET_MS = 8 * 3600 * 1000;
 const BODY_CAP = 20_000; // calma truncates bodies at this many characters

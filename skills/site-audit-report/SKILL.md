@@ -24,6 +24,9 @@ Pitch, prices, offer ranking, or overall site score out of 100. Invent metrics. 
 3. **Top findings → offer IDs.** Cap **3–5** items. `O##` only when the tracker maps them; leave blank if unclear. Stop here for Sales.
 4. **Summary paragraph.** Facts only for Sales / Grook.
 5. **Measurements.** Keep Method (`lab` / `field` / `spot`) in `audit.md`. Do not invent a JSON Method field until `audit-schema.ts` adds it.
+   - **Speed with repeated runs:** report the full range across runs plus how many runs missed the bar (e.g. "3.7 s to 46 s across 11 runs; all 11 missed 2.5 s"), never one run's figure. A single lab number hides the spread.
+   - **Lead the speed finding with the largest checkable asset** (e.g. the biggest image, with its byte size and URL), so the lead can verify it themselves. State the lab condition (e.g. simulated slow mobile) next to any lab time.
+   - Re-measure the asset size on the live site before the report is final; say who measured each number.
 6. **Evidence pack.** Prefer relative paths under `audits/<lead>/` (`lighthouse-*.json`, `shots/`, `html/`) when files exist.
 7. **Write `audit.json`.** Same folder. Match `audit-schema.ts`: required `audited_url`, `area_scores`, `crawl_scope`, `summary`, `findings[].area` and `findings[].result`; measurements only with real `tool`/`metric`/`value`/`run_at`. Priorities lowercase (`p0`…). `report_path` = `audits/<lead>/audit.md`.
 8. **Sales summary.** Short fact-only file at `<shared>/Data/audits/<lead>.md` (lead, URL, date, P0/P1/P2 counts, top fails, path to full report).
@@ -35,3 +38,4 @@ Pitch, prices, offer ranking, or overall site score out of 100. Invent metrics. 
 - [ ] Top findings capped at 3–5; score anchors used
 - [ ] All 14 checklist findings present when a full audit was requested
 - [ ] Shared summary exists; no pitch/prices; status set (`draft` or `final` as asked)
+- [ ] Any speed finding shows the run range and miss count, and leads with a checkable asset

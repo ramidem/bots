@@ -50,7 +50,7 @@ Run the `hourly-nudge` skill's "Refresh only" mode: it syncs `PENDING.md` from i
 
 ### Step 3: Gather (read-only)
 - `PENDING.md`: the top P1 and P2 rows, and the count of rows whose Source contains `JOB:`. Do not read JOBBOARD, FINANCE or bot reports directly; `PENDING.md` already holds what they contribute.
-- Calendar: `node ~/Code/<owner>/calma/calma.mjs calendar-week .` for today plus 48 hours, in the user's local time zone. Never run calma auth, uninstall, create, update, or delete; never read `~/.config/calma`. Reason: this skill must not change the calendar or credentials.
+- Calendar: `node ~/Code/<owner>/calma/src/calma.ts calendar-week .` for today plus 48 hours, in the user's local time zone. Never run calma auth, uninstall, create, update, or delete; never read `~/.config/calma`. Reason: this skill must not change the calendar or credentials.
 - Mail freshness: `personal/mail/.status.json` through mail-from-vault (ok and finished_at only), and today's mail file path for Links.
 - Notion: only if tools are connected; otherwise skip.
 

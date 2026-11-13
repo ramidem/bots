@@ -18,7 +18,7 @@ DAILY.md sections: Header (Date, Primary Goal, Last updated), Focus, Today (Done
 3. If D is later than today, stop and report one line: the clock or the file is wrong.
 4. If `briefs/D-brief.md` already exists, do not overwrite it and do not change DAILY.md. Report one line to the owner and stop.
 5. Gather for day D, read-only:
-   - Calendar: `node ~/Code/<owner>/calma/calma.mjs calendar-week`, keep only events dated D. Titles and times only. Use no other calma command.
+   - Calendar: `node ~/Code/<owner>/calma/src/calma.ts calendar-week`, keep only events dated D. Titles and times only. Use no other calma command.
    - Mail: `personal/mail/me/D-mail.md` from the vault. Sender, subject and time only. No bodies.
    - DAILY.md itself: the Primary Goal, the Focus items (done or not), and the Done line from Today.
 6. Write `briefs/D-brief.md`, exactly this format, with the date D:

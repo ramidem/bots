@@ -18,7 +18,7 @@ Vault: `<notes-vault>` (the notes vault).
 | <child-a> | `personal/mail/<child-a>` | his Google account, only if signed in to calma |
 | <child-b> | `personal/mail/<child-b>` | her Google account, only if signed in to calma |
 
-Run `node "$CALMA_PATH" accounts` (default `$HOME/Code/<owner>/calma/calma.mjs`) to see which accounts are signed in. Copy only those. If a family member's account is not signed in, say so in one line and skip it. Never open the family members' mail in a browser for this skill and never use stored passwords; sign-in is a one-time step by the user.
+Run `node "$CALMA_PATH" accounts` (default `$HOME/Code/<owner>/calma/src/calma.ts`) to see which accounts are signed in. Copy only those. If a family member's account is not signed in, say so in one line and skip it. Never open the family members' mail in a browser for this skill and never use stored passwords; sign-in is a one-time step by the user.
 
 ## Run
 
