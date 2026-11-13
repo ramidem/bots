@@ -39,7 +39,7 @@ Grok 4.7, medium effort. Whole fleet is on Grok 4.7 (2026-11-13). Claude plugins
 
 ## Skills
 
-hourly-nudge (v7: bot files + fallback sources; on done/drop also clears matching daily-brief lines and tells Career, Cable or Agency to update the job board, finance file or agency task), daily-brief-write, daily-brief-archive (all local), mail-from-vault. Removed 2026-11-11: the marketplace Daily Brief and Project Plan skills (duplicate or unused) and mail-to-vault (the copy lives on Mail Man).
+hourly-nudge (v10: if the user has not replied done, snooze or drop since the last nudge, skip that row and take the next eligible one, wrapping around; cooldowns unchanged. v7: bot files + fallback sources; on done/drop also clears matching daily-brief lines and tells Career, Cable or Agency to update the job board, finance file or agency task), daily-brief-write, daily-brief-archive (all local), mail-from-vault. Removed 2026-11-11: the marketplace Daily Brief and Project Plan skills (duplicate or unused) and mail-to-vault (the copy lives on Mail Man).
 
 ## Access
 
