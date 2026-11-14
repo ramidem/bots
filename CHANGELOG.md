@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-14: Schedule wake (user). The profile and record list the two routines that run: the screens-off nudge and the nightly fresh chat. Actuals, the retry, and planned-vs-actual stay paused.
 - 2026-11-14: daily-brief-write v6 (user via the CEO bot). The chat message lists every P1 and P2 row, with no line cap. The first run of the day always sends it. Later runs send only when action is needed, a Focus item is new, or a step failed. The calendar is still gathered and is not printed. The daily file layout is unchanged. Installed on the CEO bot.
 - 2026-11-13: hourly-nudge v10 (user via the CEO bot). If the user has not replied done, snooze or drop since the last nudge, the next run skips that row and takes the next eligible row, wrapping around. One eligible row is still nudged. Cooldowns unchanged. Installed on the CEO bot.
 - 2026-11-13: Whole fleet on Grok 4.7 (user). High effort: Dr Egghead, Engineering Lead, Career, Parenting, Sales, Schedule, Agency. Medium: Grook, Mail Man, Cable. Schedule kept the high effort it already had. Claude plugins stay available because Grok loads the Claude plugin install list. T3 and pstack were not moved. Dr Egghead's effort applies from its next turn.
