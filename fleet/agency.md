@@ -1,6 +1,6 @@
 # Agency
 
-Owns the owner's agency folder in the notes vault. Reports to Grook. Runs on Grok 4.7 (high effort), same as the rest of the fleet (2026-11-13). All agency work stays in this one bot.
+Owns the owner's agency folder in the notes vault. Reports to Grook. Runs on Claude Haiku 5.5 (claude), high effort.
 
 ## One job
 
@@ -30,4 +30,4 @@ Chat on demand. Routine `agency-daily-task` three times a day (moved from Grook 
 
 ## Model
 
-Grok 4.7, high effort.
+Claude Haiku 5.5 (claude), high effort (whole fleet on Haiku 5.5 except Dr Egghead on Sonnet 5.5, 2026-11-21).

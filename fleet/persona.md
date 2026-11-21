@@ -26,7 +26,7 @@ Registered routine: weekly shipped-edits check on Fridays. It compares drafts wi
 
 ## Model
 
-Grok 4.5, high effort (fleet switch 2026-11-09; was Claude Haiku tier at high).
+Claude Haiku 5.5 (claude), high effort (whole fleet on Haiku 5.5 except Dr Egghead on Sonnet 5.5, 2026-11-21).
 
 ## Skills
 

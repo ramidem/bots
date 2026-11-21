@@ -31,7 +31,7 @@ Registered routines (all active):
 
 ## Model
 
-Grok 4.7, high effort (whole fleet on Grok 4.7, 2026-11-13).
+Claude Haiku 5.5 (claude), high effort (whole fleet on Haiku 5.5 except Dr Egghead on Sonnet 5.5, 2026-11-21).
 
 ## Skills
 
