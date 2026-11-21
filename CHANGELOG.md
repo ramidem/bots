@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-21: Output templates (user). New `templates/` folder is the source for the status-log line and the routine report; `scripts/sync-templates.mjs` copies them into every bot folder. Bots do not edit their copies. Skills and routine instructions are not yet pointed at them.
 - 2026-11-21: Fleet models (user). Every bot on Claude Haiku 5.5, high effort, except Dr Egghead on Claude Sonnet 5.5. Fleet records and the readme now match; the earlier Haiku 4.5 and Grok 4.7 lines are replaced.
 - 2026-11-14: Schedule wake (user). The profile and record list the two routines that run: the screens-off nudge and the nightly fresh chat. Actuals, the retry, and planned-vs-actual stay paused.
 - 2026-11-14: daily-brief-write v6 (user via the CEO bot). The chat message lists every P1 and P2 row, with no line cap. The first run of the day always sends it. Later runs send only when action is needed, a Focus item is new, or a step failed. The calendar is still gathered and is not printed. The daily file layout is unchanged. Installed on the CEO bot.

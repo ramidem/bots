@@ -21,7 +21,8 @@ Public, generic records of one OpenBot agent fleet. Each file says what that bot
 
 - `fleet/` holds one file per bot.
 - `skills/` holds generic copies of the skills the fleet uses.
-- `scripts/` holds the leak check.
+- `scripts/` holds the leak check and `sync-templates.mjs`.
+- `templates/` holds the output templates (status-log line, routine report). Each bot keeps a copy in its own folder; the repo file is the source. Run `node scripts/sync-templates.mjs <agents-dir> <map-file>` to refresh the copies.
 - `test/` holds the leak-check tests.
 - `docs/` holds the standing rules, the design method, the leak check, and the fleet overview.
 
