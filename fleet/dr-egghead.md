@@ -29,7 +29,7 @@ transcript-healthcheck on weekdays exists but stays paused. Absorbed from Dr. Eg
 
 ## Model
 
-Claude Sonnet 5.5 (claude), the one bot not on Haiku (whole fleet on Haiku 5.5 high, 2026-11-21).
+Grok 4.7 (grok), high effort (whole fleet on Grok 4.7, 2026-11-21).
 
 ## Skills
 

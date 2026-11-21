@@ -35,7 +35,7 @@ Chat on demand. Registered routines: hourly nudge through the day (reads the bot
 
 ## Model
 
-Claude Haiku 5.5 (claude), high effort (whole fleet on Haiku 5.5 except Dr Egghead on Sonnet 5.5, 2026-11-21).
+Grok 4.7 (grok), high effort (whole fleet on Grok 4.7, 2026-11-21).
 
 ## Skills
 

@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-21: Fleet models (user). Every live bot, Dr Egghead included, on Grok 4.7, high effort. Replaces the Haiku 5.5 and Sonnet 5.5 lines from earlier the same day. Dr Egghead switches on its next turn. Retired bot records are unchanged.
 - 2026-11-21: Output templates (user). New `templates/` folder is the source for the status-log line and the routine report; `scripts/sync-templates.mjs` copies them into every bot folder. Bots do not edit their copies. Skills and routine instructions are not yet pointed at them.
 - 2026-11-21: Fleet models (user). Every bot on Claude Haiku 5.5, high effort, except Dr Egghead on Claude Sonnet 5.5. Fleet records and the readme now match; the earlier Haiku 4.5 and Grok 4.7 lines are replaced.
 - 2026-11-14: Schedule wake (user). The profile and record list the two routines that run: the screens-off nudge and the nightly fresh chat. Actuals, the retry, and planned-vs-actual stay paused.
