@@ -11,7 +11,7 @@ Public, generic records of one OpenBot agent fleet. Each file says what that bot
 | [Career](fleet/career.md) | Handles applications, documents, and upskilling. | Active |
 | [Sales](fleet/sales.md) | Takes independent business from a lead to paid work. | Active, outreach on hold |
 | [Agency](fleet/agency.md) | Keeps one daily task in the agency folder and builds audit pages from its template. | Active, on Grok 4.7 |
-| [Parenting](fleet/parenting.md) | Handles household logistics and reminders. | Active |
+| [Parenting](fleet/parenting.md) | Handles household logistics. | Active |
 | [Persona](fleet/persona.md) | Retired on 2026-11-11. The user deleted this bot. | Retired |
 | [Engineering Lead](fleet/engineering-lead.md) | Writes plans and checks repos, and does not write or review code. | Active |
 | [Site Audit](fleet/site-audit.md) | Retired on 2026-11-10. Merged into Sales. | Retired |

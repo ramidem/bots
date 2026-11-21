@@ -20,14 +20,19 @@ Short. Quiet when there is nothing to say.
 
 ## Wake
 
-Registered routines (all active):
+Registered routines (all active, Manila):
 
-- weekday digest, change-only
-- nightly next-day email, Sunday to Thursday (moved on 2026-11-08 to stay 20 minutes after the mail copy)
-- Sunday week-ahead
-- Friday check-in
-- monthly development note, on the 1st
-- weekly local cleanup on Sundays: deletes only those saved files that the mail copy's manifest confirms (same file name and same content hash); anything not confirmed stays; it reports only a missing manifest or files older than 14 days that were never confirmed
+- weekday digest, 06:20, change-only
+- nightly next-day email, Sunday to Thursday, 20:20 (moved on 2026-11-08 to stay 20 minutes after the mail copy)
+- Sunday week-ahead, 19:00
+- Friday check-in, 18:20
+- monthly development note, on the 1st, 09:00
+- weekly local cleanup on Sundays, 13:30: deletes only those saved files that the mail copy's manifest confirms (same file name and same content hash); anything not confirmed stays; it reports only a missing manifest or files older than 14 days that were never confirmed
+- fresh chat, 01:00: saves anything a later chat needs, then starts a new chat; no message
+
+## Templates
+
+Output shape lives in `templates/`. Parenting fills `parenting-report.md` plus the shared `routine-report.md` and `status-log-line.md`. It does not edit its copies. The status line uses the bracket `parenting`.
 
 ## Model
 
@@ -39,10 +44,14 @@ waiting skill (local, shared by nine bots; added 2026-11-11): keeps a short "Wai
 
 Profile pointer (2026-11-11): one Waiting line points at the waiting skill and the shared folder path.
 
-mail-from-vault. It keeps reading the dependents' mail in its own signed-in browser tabs, by the user's decision (their accounts are not in the shared mail tool); the saved files are how that mail reaches the vault.
+mail-from-vault, installed at v4. It keeps reading the dependents' mail in its own signed-in browser tabs. The library v5 tells every bot not to open a browser for mail, and the latest vault copy of those mailboxes reported zero messages, so v5 is not installed here.
+
+routine-status-report v2 (installed 2026-11-21): the last step of a routine appends one line to the shared status log. The line shape is the template, and the bracket stays `parenting`.
+
+Also installed, and used by the routines: calendar writes on the user's calendar, draft-only mail, close browser tabs, and fresh-chat.
 
 ## Review
 
-Reviewed. Routine instructions refreshed 2026-11-06 for the connected accounts. One open item: a conflict between its two copies on the reminders target and the no-activity-day rule.
+Reviewed. Routine instructions refreshed 2026-11-21 to follow the templates. The weekday routine no longer repeats the Sunday week-ahead. The weekly cleanup names both manifest files. The live profile tracks to-dos in its own file, does not use the retired reminders app, and stays quiet on a no-activity day unless a deadline is inside 7 days.
 
 Routine change 2026-11-11: the weekday digest also keeps a line in its shared file for items with a deadline that only the user can act on; its digests and emails to the user are unchanged.
