@@ -28,7 +28,7 @@ Registered routines (all active, Manila):
 - Sunday week-ahead, 19:00
 - Friday check-in, 18:20
 - monthly development note, on the 1st, 09:00
-- weekly local cleanup on Sundays, 13:30: deletes only those saved files that the mail copy's manifest confirms (same file name and same content hash); anything not confirmed stays; it reports only a missing manifest or files older than 14 days that were never confirmed
+- weekly local cleanup on Sundays, 13:30: deletes only those saved files that the mail copy's manifest confirms (same file name and same content hash); anything not confirmed stays; a file named by an open waiting line stays; it reports only a missing manifest or files older than 14 days that were never confirmed
 - fresh chat, 01:00: saves anything a later chat needs, then starts a new chat; no message
 
 ## Templates
