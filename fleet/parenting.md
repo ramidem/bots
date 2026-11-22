@@ -48,7 +48,7 @@ mail-from-vault is not installed. School mail stays on the signed-in browser tab
 
 routine-status-report v2 (installed 2026-11-21): the last step of a routine appends one line to the shared status log. The line shape is the template, and the bracket stays `parenting`.
 
-Also installed, and used by the routines: calendar writes on the user's calendar, draft-only mail, close browser tabs, and fresh-chat.
+Also installed, and used by the routines: calendar writes on the user's calendar, close browser tabs, and fresh-chat. The two evening notes are handed to the front-door bot. That bot shows each note to the user and sends it only after a yes. The note covers the household only, not the user. Sending with no yes waits until the user says the template is solid.
 
 ## Review
 

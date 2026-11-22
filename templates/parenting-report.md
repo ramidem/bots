@@ -10,11 +10,11 @@ One short chat message to the user. Bullets. Deadlines inside 7 days first, then
 
 ## Nightly next-day note
 
-A draft email only. Never send it. Cover the next calendar day. Bullets, one source pointer each. If a source tab is signed out, say so and stop.
+A note for the next calendar day. Bullets, one source pointer each. The body covers the children, their school, and family logistics only. Nothing about the user. If a source tab is signed out, say so and stop. If the next day has nothing, write the status line and hand nothing over. Otherwise hand the finished note to the front-door bot. That bot shows it to the user and sends it only after the user says yes. This bot does not send.
 
 ## Sunday week-ahead
 
-A draft email only. Never send it. Cover the coming week. Deadlines and fees first, one item per bullet, each with a source pointer.
+A note for the coming week. Deadlines and fees first, one item per bullet, each with a source pointer. The body covers the children, their school, and family logistics only. Nothing about the user. If the week has nothing new, write the status line and hand nothing over. Otherwise hand the finished note to the front-door bot. That bot shows it to the user and sends it only after the user says yes. This bot does not send.
 
 ## Friday check-in
 

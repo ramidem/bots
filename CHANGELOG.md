@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-22: Parenting (user). The two evening notes go to the front-door bot. The user approves each one before it is sent. The note stays on the household, not the user. Unattended send waits until the user says the template is solid.
 - 2026-11-22: Parenting (user). mail-from-vault removed. School mail stays on the signed-in tabs. The library update would ban that browser path, and the vault copies of those mailboxes were empty. Other bots keep the skill.
 - 2026-11-21: Parenting (user). Routines follow `templates/parenting-report.md` plus the shared report and status-log templates. Status skill v2 is installed on Parenting only. Dependent mail stays on signed-in tabs; mail-from-vault stays at v4.
 - 2026-11-21: Fleet models (user). Every live bot, Dr Egghead included, on Grok 4.7, high effort. Replaces the Haiku 5.5 and Sonnet 5.5 lines from earlier the same day. Dr Egghead switches on its next turn. Retired bot records are unchanged.
