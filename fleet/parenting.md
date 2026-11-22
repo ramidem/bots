@@ -44,7 +44,7 @@ waiting skill (local, shared by nine bots; added 2026-11-11): keeps a short "Wai
 
 Profile pointer (2026-11-11): one Waiting line points at the waiting skill and the shared folder path.
 
-mail-from-vault, installed at v4. It keeps reading the dependents' mail in its own signed-in browser tabs. The library v5 tells every bot not to open a browser for mail, and the latest vault copy of those mailboxes reported zero messages, so v5 is not installed here.
+mail-from-vault is not installed. School mail stays on the signed-in browser tabs. The library copy tells every bot not to open a browser for mail, and the vault copies of those mailboxes were empty, so the skill was removed on 2026-11-22. Other bots keep it.
 
 routine-status-report v2 (installed 2026-11-21): the last step of a routine appends one line to the shared status log. The line shape is the template, and the bracket stays `parenting`.
 
