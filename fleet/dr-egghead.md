@@ -29,7 +29,7 @@ transcript-healthcheck on weekdays exists but stays paused. Absorbed from Dr. Eg
 
 ## Model
 
-Grok 4.7 (grok), high effort (whole fleet on Grok 4.7, 2026-11-21).
+Grok 4.7 (grok), medium effort (whole fleet capped at medium, 2026-11-22). Already medium before the cap.
 
 ## Skills
 

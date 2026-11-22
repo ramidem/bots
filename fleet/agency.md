@@ -1,6 +1,6 @@
 # Agency
 
-Owns the owner's agency folder in the notes vault. Reports to Grook. Runs on Grok 4.7 (grok), high effort.
+Owns the owner's agency folder in the notes vault. Reports to Grook. Runs on Grok 4.7 (grok), medium effort.
 
 ## One job
 
@@ -30,4 +30,4 @@ Chat on demand. Routine `agency-daily-task` three times a day (moved from Grook 
 
 ## Model
 
-Grok 4.7 (grok), high effort (whole fleet on Grok 4.7, 2026-11-21).
+Grok 4.7 (grok), medium effort (whole fleet capped at medium, 2026-11-22).

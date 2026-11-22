@@ -24,7 +24,7 @@ Mail only from the vault copies (mail-from-vault); it does not check mail itself
 
 ## Model
 
-Grok 4.7 (grok), high effort (whole fleet on Grok 4.7, 2026-11-21).
+Grok 4.7 (grok), medium effort (whole fleet capped at medium, 2026-11-22).
 
 ## Skills
 
