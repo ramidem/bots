@@ -23,6 +23,7 @@ Short. Quiet when there is nothing to say.
 Registered routines (all active, Manila):
 
 - weekday digest, 06:20, change-only
+- weekday noon mail save, 12:20: saves new school mail only, no note
 - nightly next-day email, Sunday to Thursday, 20:20 (moved on 2026-11-08 to stay 20 minutes after the mail copy)
 - Sunday week-ahead, 19:00
 - Friday check-in, 18:20

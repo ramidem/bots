@@ -11,7 +11,7 @@ This table lists each bot, its one job, and how often it wakes.
 | [Career](../fleet/career.md) | Handles applications, documents, and upskilling. | weekday job-mail checks, Sunday metrics, daily flashcard sync | Active |
 | [Sales](../fleet/sales.md) | Takes independent business from a lead to paid work. | Monday lead scan, Saturday lesson | Active, outreach on hold |
 | [Agency](../fleet/agency.md) | Keeps one daily task in the agency folder and builds audit pages from its template. | daily task three times a day | Active |
-| [Parenting](../fleet/parenting.md) | Handles household logistics. | weekday digest, nightly email, Sunday week-ahead, Friday check-in, monthly note, weekly cleanup, fresh chat | Active |
+| [Parenting](../fleet/parenting.md) | Handles household logistics. | weekday digest, noon mail save, nightly email, Sunday week-ahead, Friday check-in, monthly note, weekly cleanup, fresh chat | Active |
 | [Persona](../fleet/persona.md) | Retired on 2026-11-11. The user deleted this bot. | none | Retired |
 | [Engineering Lead](../fleet/engineering-lead.md) | Writes plans and checks repos, and does not write or review code. | none | Active |
 | [Site Audit](../fleet/site-audit.md) | Retired on 2026-11-10. Merged into Sales. | none | Retired |
