@@ -9,7 +9,7 @@ This table lists each bot, its one job, and how often it wakes.
 | [Dr Egghead](../fleet/dr-egghead.md) | Designs and reviews bots. | daily bot review (paused until the user turns it on), weekly routine check on Mondays, skill health every 3 days, daily records sync | Active |
 | [Schedule](../fleet/schedule.md) | Keeps the calendar and coaches planned time against actual time. | daily actuals, a same-day retry, a daily planned-vs-actual check, a daily screens-off nudge | Active |
 | [Career](../fleet/career.md) | Handles applications, documents, and upskilling. | weekday job-mail checks, Sunday metrics, daily flashcard sync | Active |
-| [Sales](../fleet/sales.md) | Takes independent business from a lead to paid work. | Monday lead scan, Saturday lesson | Active, outreach on hold |
+| [Sales](../fleet/sales.md) | Takes independent business from a lead to paid work. | Monday lead scan, Saturday lesson, nightly fresh chat (all paused 2026-11-23) | Active, outreach on hold |
 | [Agency](../fleet/agency.md) | Keeps one daily task in the agency folder and builds audit pages from its template. | daily task three times a day | Active |
 | [Parenting](../fleet/parenting.md) | Handles household logistics. | weekday digest, noon mail save, nightly email, Sunday week-ahead, Friday check-in, monthly note, weekly cleanup, fresh chat | Active |
 | [Persona](../fleet/persona.md) | Retired on 2026-11-11. The user deleted this bot. | none | Retired |

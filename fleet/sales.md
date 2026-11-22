@@ -22,7 +22,7 @@ Short and plain. One message per result, reported to Grook once.
 
 ## Wake
 
-Chat on demand (audits included). Registered routines: weekly lead scan on Mondays, weekly business lesson on Saturdays.
+Chat on demand (audits included). Three routines are registered and paused (2026-11-23): the Monday lead scan, the Saturday business lesson, and a nightly fresh chat. None runs until the user turns one on. No webhook routines.
 
 ## Model
 
