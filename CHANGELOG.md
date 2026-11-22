@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-22: Front-door bot. Sunday weekend review paused itself. The live daily file's date was not that day. The Sunday 20:45 schedule is unchanged. It stays off until the user asks.
 - 2026-11-22: Fleet models (user). Every live bot stays on Grok 4.7, capped at medium effort. Nine were high and are now medium. Dr Egghead was already medium. None was lower. The cap applies on each bot's next turn. Retired bot records are unchanged.
 - 2026-11-22: Parenting (user). Sunday cleanup keeps a saved mail file when an open waiting line names it.
 - 2026-11-22: Parenting (user). Weekday noon mail save at 12:20. It saves new school mail and sends nothing. A later run does not add a second sign-in line or chat about one that is already open.
