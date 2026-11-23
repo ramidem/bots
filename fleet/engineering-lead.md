@@ -39,11 +39,13 @@ Grok 4.7 (grok), medium effort (whole fleet capped at medium, 2026-11-22).
 
 ## Skills
 
-waiting skill (local, shared by nine bots; added 2026-11-11): keeps a short "Waiting on the user" file in a shared folder; Grook's hourly nudge reads it, so the bot does not message Grook about items that only need the user.
+Installed: close-browser-tabs, fresh-chat-on-topic-change, repo best-practices review, routine-status-report, the waiting skill, and PR Follow-up.
 
-Profile pointer (2026-11-11): one Waiting line points at the waiting skill and the shared folder path.
+The waiting skill keeps one line per thing only the user can do, in the shared waiting folder. Grook's hourly nudge reads it, so this bot does not message Grook about those items.
 
-PR Follow-up. mail-from-vault was removed on 2026-11-23: reading mail belongs to Mail Man. The mail copy script stays a spec for T3 Code agents. The coding skills (pstack, secure-code-guidance, Bug Triage) were removed on 2026-11-08 because code is written by T3 Code agents; they are planned to move to the T3 side and the repos' agent instructions (not done yet).
+PR Follow-up stays limited to tracking and classifying pull requests. The installed text still says to fix failing checks and review threads, and the profile overrides that. The pending update stays uninstalled. Those fixes, and a review or pull request this bot cannot do, go to T3 Code.
+
+Not installed: mail-from-vault (reading mail belongs to Mail Man; the mail copy script stays a spec for T3 Code). The coding skills (pstack, secure-code-guidance, Bug Triage) were removed on 2026-11-08 because code is written by T3 Code. They are planned to move to the T3 side and the repos' agent instructions (not done yet).
 
 ## Review
 
