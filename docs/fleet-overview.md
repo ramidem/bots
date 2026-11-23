@@ -4,7 +4,7 @@ This table lists each bot, its one job, and how often it wakes.
 
 | Bot | One job | Routines | Status |
 | --- | --- | --- | --- |
-| [Grook](../fleet/grook.md) | Routes each ask to its owner, checks the work, and gives one stream. | daily brief four times a day, daily archive, hourly nudge, Sunday cleanup, Sunday weekend review (paused 2026-11-22) | Active |
+| [Grook](../fleet/grook.md) | Routes each ask to its owner, checks the work, and gives one stream. | daily brief four times a day, daily archive, hourly nudge (paused 2026-11-23), Sunday cleanup, Sunday weekend review (paused 2026-11-22) | Active |
 | [Mail Man](../fleet/mail-man.md) | Reads the mail copies and flags what needs action, to Grook only. | hourly mail copy, mail triage three times a day | Active |
 | [Dr Egghead](../fleet/dr-egghead.md) | Designs and reviews bots. | daily bot review (paused until the user turns it on), weekly routine check on Mondays, skill health every 3 days, daily records sync | Active |
 | [Schedule](../fleet/schedule.md) | Keeps the calendar and coaches planned time against actual time. | daily actuals, a same-day retry, a daily planned-vs-actual check, a daily screens-off nudge | Active |
