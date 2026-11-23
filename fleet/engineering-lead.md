@@ -31,7 +31,7 @@ Short and plain. One message per result, through Grook.
 
 ## Wake
 
-Chat on demand. No routines.
+Chat on demand. One routine: a nightly fresh chat at 01:00 that sends nothing.
 
 ## Model
 
