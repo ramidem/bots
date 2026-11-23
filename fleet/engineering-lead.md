@@ -43,7 +43,7 @@ waiting skill (local, shared by nine bots; added 2026-11-11): keeps a short "Wai
 
 Profile pointer (2026-11-11): one Waiting line points at the waiting skill and the shared folder path.
 
-PR Follow-up, mail-from-vault. The coding skills (pstack, secure-code-guidance, Bug Triage) were removed on 2026-11-08 because code is written by T3 Code agents; they are planned to move to the T3 side and the repos' agent instructions (not done yet).
+PR Follow-up. mail-from-vault was removed on 2026-11-23: reading mail belongs to Mail Man. The mail copy script stays a spec for T3 Code agents. The coding skills (pstack, secure-code-guidance, Bug Triage) were removed on 2026-11-08 because code is written by T3 Code agents; they are planned to move to the T3 side and the repos' agent instructions (not done yet).
 
 ## Review
 

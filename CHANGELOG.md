@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-23: Engineering Lead (user). mail-from-vault was removed. Reading mail stays with Mail Man. The mail copy script stays a spec for the coding side.
 - 2026-11-23: Engineering Lead (user). The fleet note names the nightly fresh chat at 01:00. It sends nothing. The live profile is unchanged.
 - 2026-11-23: Front-door bot (user). The hourly nudge is paused, not deleted. The schedule stays every 2 hours at :50 from 07:50 through 21:50.
 - 2026-11-23: Sales (user). All three routines are paused, not deleted: the Monday lead scan, the Saturday business lesson, and the nightly fresh chat. No webhook routines. Chat on demand stays.
