@@ -16,9 +16,10 @@ Tracker infrastructure fixes (reports a broken tracker to Grook in one line), re
 
 ## School dates
 
-- A mail copy already saved wins over a pasted note.
-- Do not overwrite a saved school date, or a calendar event, when a newer note moves that date, until the user has seen both sources.
-- Every school calendar event names its source: the email subject and date, or "pasted note, no email."
+- A school message the user confirms wins. A later one wins over an older one. An SMS the user confirms counts the same as email.
+- An unsourced note does not move a date that a confirmed school message already set.
+- If a new note would move a saved date, show both sources and wait. Do not change the calendar or a family email until the user has seen both, unless the user already said which source is correct.
+- Every school event on the calendar names its source: email subject and date, or SMS plus the date the user confirmed it.
 
 ## Voice
 

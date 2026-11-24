@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-24: Parenting and Schedule (user). A confirmed school message wins, a later one over an older one, and a confirmed SMS counts the same as email. An unsourced note does not move that date. Show both sources before a move unless the user already chose. The calendar event names its source.
 - 2026-11-24: Parenting and Schedule (user). A saved mail copy wins over a pasted note for a school date. Do not move a saved date or calendar event until the user has seen both sources. The calendar event names its source.
 - 2026-11-23: Engineering Lead (user). The skills list matches what is installed. The mail reader is not on it. The pull-request follow-up update stays uninstalled.
 - 2026-11-23: Engineering Lead (user). It may open its own spec, doc, and config pull requests. If it cannot review a change or open the pull request, it hands that to T3 Code. It still does not write code.
