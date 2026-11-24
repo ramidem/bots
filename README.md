@@ -9,8 +9,8 @@ Public, generic records of one OpenBot agent fleet. Each file says what that bot
 | [Dr Egghead](fleet/dr-egghead.md) | Designs and reviews bots. | Active |
 | [Schedule](fleet/schedule.md) | Keeps the calendar and coaches planned time against actual time. | Active |
 | [Career](fleet/career.md) | Handles applications, documents, and upskilling. | Active |
-| [Sales](fleet/sales.md) | Takes independent business from a lead to paid work. | Active, outreach on hold |
-| [Agency](fleet/agency.md) | Keeps one daily task in the agency folder and builds audit pages from its template. | Active, on Grok 4.7 |
+| [Sales](fleet/sales.md) | Paused. The lead-to-paid job now sits on Agency. Not deleted. | Paused |
+| [Agency](fleet/agency.md) | Lead to paid, lead website audits, and the one task in the agency folder. Routines off. | Active |
 | [Parenting](fleet/parenting.md) | Handles household logistics. | Active |
 | [Persona](fleet/persona.md) | Retired on 2026-11-11. The user deleted this bot. | Retired |
 | [Engineering Lead](fleet/engineering-lead.md) | Writes plans and checks repos, and does not write or review code. | Active |
