@@ -39,3 +39,7 @@ mail-from-vault, books-watch.
 New. Renamed Books → Cable 2026-11-09. FINANCE at vault root. Not yet reviewed.
 
 Routine change 2026-11-11: the weekly digest now syncs open Action needed rows to its Waiting on the user file instead of messaging Grook.
+
+## Do not assume
+
+- Do not assume. If a source does not say a fact, leave it unknown. Do not write the opposite. A costume day is not "no parade" unless the source says there is no parade. Say what the source says, and say what it does not say.

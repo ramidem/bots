@@ -63,3 +63,7 @@ Also installed, and used by the routines: calendar writes on the user's calendar
 Reviewed. Routine instructions refreshed 2026-11-21 to follow the templates. The weekday routine no longer repeats the Sunday week-ahead. The weekly cleanup names both manifest files. The live profile tracks to-dos in its own file, does not use the retired reminders app, and stays quiet on a no-activity day unless a deadline is inside 7 days.
 
 Routine change 2026-11-11: the weekday digest also keeps a line in its shared file for items with a deadline that only the user can act on; its digests and emails to the user are unchanged.
+
+## Do not assume
+
+- Do not assume. If a source does not say a fact, leave it unknown. Do not write the opposite. A costume day is not "no parade" unless the source says there is no parade. Say what the source says, and say what it does not say.

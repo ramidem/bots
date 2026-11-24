@@ -44,3 +44,7 @@ mail-from-vault. mail-cleanup (installed 2026-11-09; used only when the front-do
 New. Not yet reviewed.
 
 Routine change 2026-11-11: triage writes mail meant for the user to its Waiting on the user file; mail meant for another bot still goes in one routing message to Grook; stale-copy warnings still go to Grook.
+
+## Do not assume
+
+- Do not assume. If a source does not say a fact, leave it unknown. Do not write the opposite. A costume day is not "no parade" unless the source says there is no parade. Say what the source says, and say what it does not say.

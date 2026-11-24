@@ -50,3 +50,7 @@ Not installed: mail-from-vault (reading mail belongs to Mail Man; the mail copy 
 ## Review
 
 Reviewed. Target-check line added. Took over audits and deploy checks on 2026-11-08.
+
+## Do not assume
+
+- Do not assume. If a source does not say a fact, leave it unknown. Do not write the opposite. A costume day is not "no parade" unless the source says there is no parade. Say what the source says, and say what it does not say.

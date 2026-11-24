@@ -39,3 +39,7 @@ Account Brief, Outreach Draft, Evidence Brief, Competitor Comparison, mail-from-
 ## Review
 
 Reviewed. Absorbed Site Audit 2026-11-10 (user's call).
+
+## Do not assume
+
+- Do not assume. If a source does not say a fact, leave it unknown. Do not write the opposite. A costume day is not "no parade" unless the source says there is no parade. Say what the source says, and say what it does not say.

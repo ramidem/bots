@@ -39,3 +39,7 @@ Skills: cover-letter drafting, job-board updates, mail-from-vault, waiting skill
 Reviewed. Noon scan dropped. Email-scan routines removed 2026-11-08; mail now comes from the vault copies.
 
 Routine change 2026-11-11: the weekday job-mail checks and the Sunday metrics check now write items that need the user to its Waiting on the user file instead of messaging Grook (the metrics summary and a stale-copy line still go to Grook).
+
+## Do not assume
+
+- Do not assume. If a source does not say a fact, leave it unknown. Do not write the opposite. A costume day is not "no parade" unless the source says there is no parade. Say what the source says, and say what it does not say.

@@ -49,3 +49,7 @@ See [Design and review](../docs/design-and-review.md). Reviews send about five n
 Daily rotation (one bot per day), not a finished queue. Order lives in the agent's `review-cycle.json`: Schedule → Cable → Mail Man → Grook → Career → Sales → Parenting → Engineering Lead → (repeat). New bots append. Dr Egghead is skipped. Routine is paused until the user turns it on.
 
 Routine change 2026-11-11: the daily bot review keeps one Waiting on the user line for an open review (paused routine).
+
+## Do not assume
+
+- Do not assume. If a source does not say a fact, leave it unknown. Do not write the opposite. A costume day is not "no parade" unless the source says there is no parade. Say what the source says, and say what it does not say.
