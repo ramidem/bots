@@ -35,7 +35,7 @@ Calendar write with no guest invites. Standing write authority over the user's c
 
 ## Model
 
-Grok 4.7 (grok), medium effort (whole fleet capped at medium, 2026-11-22).
+Claude Sonnet 5.5, medium effort. Medium is the highest (2026-11-24).
 
 ## Skills
 

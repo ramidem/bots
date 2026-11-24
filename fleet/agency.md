@@ -1,6 +1,6 @@
 # Agency
 
-Owns the owner's freelance business from lead to paid, and the one task in the agency folder. Reports to Grook. Runs on Grok 4.7 (grok), medium effort.
+Owns the owner's freelance business from lead to paid, and the one task in the agency folder. Reports to Grook. Runs on Claude Sonnet 5.5, medium effort. Medium is the highest.
 
 ## One job
 
@@ -30,7 +30,7 @@ Chat on demand. Three routines are registered and off: the folder task, a nightl
 
 ## Model
 
-Grok 4.7 (grok), medium effort (whole fleet capped at medium, 2026-11-22).
+Claude Sonnet 5.5, medium effort. Medium is the highest (2026-11-24).
 
 ## Skills
 

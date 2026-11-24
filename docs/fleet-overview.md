@@ -19,4 +19,4 @@ This table lists each bot, its one job, and how often it wakes.
 
 Registered routines are the ones that exist on the platform. They stay at least 15 minutes apart. The hourly mail copy is exempt.
 
-Every active bot runs Grok 4.7 at medium effort. None is above medium. Retired bots are unchanged. T3 and pstack were not moved.
+Every live bot runs Claude Sonnet 5.5 at medium effort. Medium is the highest. Retired bots are unchanged. T3 and pstack were not moved.

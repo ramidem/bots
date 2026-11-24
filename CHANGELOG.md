@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-24: Fleet models (user). Every live bot is on Claude Sonnet 5.5, medium effort. Medium is the highest. A bot already in a turn keeps the old model until that turn ends. Retired records are unchanged.
 - 2026-11-24: Agency (user). The lead-to-paid job, offers, and the full site-audit set now sit on Agency, with the one agency-folder task. Send, spend, and publish stay banned. Routines stay off. Sales is not deleted. The front door routes that work to Agency. Four marketplace drafts stay on Sales. No tool installs those onto another bot.
 - 2026-11-24: Every live bot (user). If a source does not say a fact, leave it unknown. Do not write the opposite. A costume day is not "no parade" unless the source says there is no parade.
 - 2026-11-24: Parenting and Schedule (user). A confirmed school message wins, a later one over an older one, and a confirmed SMS counts the same as email. An unsourced note does not move that date. Show both sources before a move unless the user already chose. The calendar event names its source.

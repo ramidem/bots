@@ -35,7 +35,7 @@ Chat on demand. Registered routines: hourly nudge through the day (paused 2026-1
 
 ## Model
 
-Grok 4.7 (grok), medium effort (whole fleet capped at medium, 2026-11-22).
+Claude Sonnet 5.5, medium effort. Medium is the highest (2026-11-24).
 
 ## Skills
 
