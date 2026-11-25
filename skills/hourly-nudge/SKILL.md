@@ -71,7 +71,7 @@ Another routine can ask for a quick refresh before it reads `PENDING.md`. Do ste
      - If Source contains `JOB:` or Owner is Career: `openbot.send_message` to the Career bot, `expectsReply` false. One short line: the item name, state (`done` or `dropped`), and "move the row out of Active and log it in the Change log."
      - If Source contains `FINANCE:` or Owner is Cable: same pattern to the Cable bot for `FINANCE.md` (remove or tick the Action needed line, keep the file slim).
      - `MAIL:`, bare `BOT:`, or other sources: nothing beyond the tombstone steps.
-  5b. Agency task: if the id starts with `agency-` (source `the-agency/02-TODAY.md`), `openbot.send_message` to the Agency bot, `expectsReply` false. One short line: the item name, state (`done`, `dropped` or `swap`), and "write the Status line under the task in 02-TODAY.md, log it, and promote the next task." You never edit the agency folder yourself.
+  5b. Agency task: if the id starts with `agency-` (source `work/agency/02-TODAY.md`), `openbot.send_message` to the Agency bot, `expectsReply` false. One short line: the item name, state (`done`, `dropped` or `swap`), and "write the Status line under the task in 02-TODAY.md, log it, and promote the next task." You never edit the agency folder yourself.
   6. Confirm to the user in one short line that X is cleared (and which source bot you pinged, if any).
 - "snooze X 2d": set Nudged to `snz <date>`; the row stays. Do not change `DAILY.md`, the job board, or the finance file.
 - "what's pending": list the rows by tier, one short line each, no mail text.

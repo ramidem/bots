@@ -7,7 +7,7 @@ description: Runs or reviews one agency site audit for a named lead by filling
 
 ## Procedure
 
-1. Locate the template first. Search the notes vault and the the-agency repo for `site-audit` and `TEMPLATE`. Expect `site-audit/TEMPLATE.md` in the notes vault, and after the move, `the-agency/site-audit/TEMPLATE.md`. Do not assume the path; check it before any other step.
+1. Locate the template first. Search the notes vault and the the-agency repo for `site-audit` and `TEMPLATE`. Expect `site-audit/TEMPLATE.md` in the notes vault, and after the move, `work/agency/site-audit/TEMPLATE.md`. Do not assume the path; check it before any other step.
    - Why: the template is the required audit format, and an agent that skips it produces a non-compliant audit.
 2. Read the template in full (`sed -n 1,80p` or longer if needed) before scoring. Note the six area names, the 0-10 scale, and the offer-ID evidence format.
    - Why: scores must follow the template's areas, not a made-up set.

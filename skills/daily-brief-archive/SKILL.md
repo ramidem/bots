@@ -27,7 +27,7 @@ DAILY.md sections: Header (Date, Primary Goal, Last updated), Focus, Today (Done
 # brief · D
 
 ## updates
-- one line each: what changed that day (finished work, new items, job status as one line linking jobs/JOBBOARD.md)
+- one line each: what changed that day (finished work, new items, job status as one line linking work/jobs/JOBBOARD.md)
 
 ## went well
 - ...
@@ -42,7 +42,7 @@ DAILY.md sections: Header (Date, Primary Goal, Last updated), Focus, Today (Done
 - ...
 ```
 
-   Keep it short, one fact per bullet. No contact details, no emails, no phone numbers, no family members' names beyond what calendar titles show. Job items stay as one link to `jobs/JOBBOARD.md`; never copy job details.
+   Keep it short, one fact per bullet. No contact details, no emails, no phone numbers, no family members' names beyond what calendar titles show. Job items stay as one link to `work/jobs/JOBBOARD.md`; never copy job details.
 7. Write a new `DAILY.md` for today from the template (Header, Focus, Today, Links only):
    - Header: today's date, a placeholder Primary Goal, Last updated with the current time.
    - Focus: unchecked items carry over as ♺ Rollover (max 5). Done items are dropped. The first brief of the day rebuilds Focus from the pending list.
