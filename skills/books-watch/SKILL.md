@@ -1,27 +1,27 @@
 ---
 name: books-watch
-description: Slim actionable finance watcher from money mail for Cable. Index only act-on lines into vault-root FINANCE.md, learn bank/statement/due patterns over time, prune stale noise. UnionBank first. Text only — never PDF parse, bank login, or OTP links. Not an expense ledger.
+description: Slim actionable finance watcher from money mail for Cable. Index only act-on lines into finance/FINANCE.md, learn bank/statement/due patterns over time, prune stale noise. UnionBank first. Text only — never PDF parse, bank login, or OTP links. Not an expense ledger.
 example-prompt: Scan UnionBank money mail and update FINANCE Action needed + Patterns.
 ---
 
 # Cable finance watcher (books-watch v4)
 
-Keep one slim vault-root file of **actionable** money notices. Learn the owner's patterns over time. Reports to Grook. **Not** an expense/income tracker. Owner bot: **Cable** (formerly Books).
+Keep one slim file in finance/ of **actionable** money notices. Learn the owner's patterns over time. Reports to Grook. **Not** an expense/income tracker. Owner bot: **Cable** (formerly Books).
 
 ## Three standing rules
 
 1. **Actionable only** — keep lines the owner can act on: pay by date, credit-limit risk, statement to review, unusual that needs a look. Skip FYI-only clutter (OTP, login, routine transfer/payment confirmations, promo with no action).
-2. **Keep FINANCE slim** — one short file at vault root; no dump of every mail; prune when paid, reviewed, or stale (move briefly to Done/pruned, then delete).
+2. **Keep FINANCE slim** — one short file in finance/; no dump of every mail; prune when paid, reviewed, or stale (move briefly to Done/pruned, then delete).
 3. **Learn patterns** — update Patterns only when a bank, statement window, or due cadence repeats or the owner confirms. Never invent cadence from one mail.
 
 ## Paths
 
 | What | Where |
 |---|---|
-| FINANCE (canonical) | `<notes-vault>/FINANCE.md` |
+| FINANCE (canonical) | `<notes-vault>/finance/FINANCE.md` |
 | Mail copies | use **mail-from-vault** (`personal/mail/me/…`) |
 
-Stubs under `personal/finance/` point here — always write the vault-root `FINANCE.md`.
+Stubs under `personal/finance/` point here — always write `finance/FINANCE.md`.
 
 ## Watch list (v1)
 
@@ -63,11 +63,11 @@ UnionBank: `unionbankph.com`, `statement.unionbankph.com`.
 ## Weekly quiet digest (to Grook only)
 
 If nothing new and Action needed unchanged: send **no message**.
-If something new or still-open actions: at most eight lines — open actions (by/action/source), any new pattern notes, path to vault-root `FINANCE.md`. No spend totals, no OTP, no full account numbers, no mail bodies.
+If something new or still-open actions: at most eight lines — open actions (by/action/source), any new pattern notes, path to `finance/FINANCE.md`. No spend totals, no OTP, no full account numbers, no mail bodies.
 
 ## Verify
 
 - [ ] Only actionable rows in Action needed; FYI skipped
-- [ ] FINANCE stayed short at vault root; stale rows pruned
+- [ ] FINANCE stayed short in finance/; stale rows pruned
 - [ ] Patterns updated only on evidence; nothing invented
 - [ ] Last scan updated; quiet when nothing changed
