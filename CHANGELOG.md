@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-25: Career and Agency (user). Leftover paths from the vault move fixed, paths only: job-board-updates (v4) and cover-letter-drafting (v3) now say work/jobs, and the site-audit template note (v6) says work/agency.
 - 2026-11-25: Front-door bot and Agency (user). The notes vault moved jobs to work/jobs and the agency folder to work/agency. Paths only changed in the skills hourly-nudge (v11), daily-brief-archive (v5), agency-daily-task (v6) and agency-site-audits (v4). Career's job-board-updates and cover-letter-drafting still say jobs/ (Career's to hand over); the site-audit template note still says the old agency path.
 - 2026-11-25: Front-door bot (user). New routine checkin-3x at 06:00, 12:00 and 19:00 Manila: one item to the user per run (due item, dedupe batch, unaccepted offering, next action). It replaces the daily brief and the hourly nudge, both already paused and staying off. Daily brief archive, Sunday cleanup and Sunday weekend review are unchanged. Nothing is deleted without the user's yes.
 - 2026-11-25: Sales deleted (user). The audit-folder link was removed first and the vault folder was checked (18 files). Four marketplace skills and the audit folder are archived in the shared skill-archive folder. The job sits on Agency.

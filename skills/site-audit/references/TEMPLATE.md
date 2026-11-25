@@ -270,7 +270,7 @@ Fill to match `<app-repo>/src/lib/domain/audit-schema.ts` (also `GET /schemas/au
 
 | File / folder | Where |
 |---|---|
-| Working template | notes vault: `<notes-vault>/the-agency/site-audit/` (`TEMPLATE.md` + `docs/`) |
+| Working template | notes vault: `<notes-vault>/work/agency/site-audit/` (`TEMPLATE.md` + `docs/`) |
 | Full report | Agent workspace: `audits/{{lead}}/audit.md` + `audit.json` (and/or <app-repo> when write key exists) |
 | Sales summary | `<shared>/Data/audits/{{lead}}.md` (short) |
 

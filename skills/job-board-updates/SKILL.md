@@ -1,6 +1,6 @@
 ---
 name: Job board updates
-description: "Update the owner’s jobs board (jobs/JOBBOARD.md) from vault mail copies:
+description: "Update the owner’s jobs board (work/jobs/JOBBOARD.md) from vault mail copies:
   Active next steps and running Metrics. Use after job-mail checks or board
   cleanups; never recreate removed sections."
 ---
@@ -8,12 +8,12 @@ description: "Update the owner’s jobs board (jobs/JOBBOARD.md) from vault mail
 # Job board updates
 
 ## When
-Weekday job-mail checks, outreach handoffs, or board cleanups. Target only `jobs/JOBBOARD.md` in the notes vault. Never use Notion, career search / `jobhunt_` tools, or create `DASHBOARD.md`.
+Weekday job-mail checks, outreach handoffs, or board cleanups. Target only `work/jobs/JOBBOARD.md` in the notes vault. Never use Notion, career search / `jobhunt_` tools, or create `DASHBOARD.md`.
 
 ## Procedure
 
 1. **Read the board first**  
-   Open `jobs/JOBBOARD.md`. Note current Active items and the Metrics block.  
+   Open `work/jobs/JOBBOARD.md`. Note current Active items and the Metrics block.  
    - Rule: Never recreate `## Change log`, `## Not checked`, or `## Logs` — the owner removed them; recreating fights his layout.
 
 2. **Source job signals from vault mail only**  
