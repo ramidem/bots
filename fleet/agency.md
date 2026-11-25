@@ -41,3 +41,6 @@ Still only on the paused Sales bot: Account Brief, Outreach Draft, Evidence Brie
 ## Do not assume
 
 - Do not assume. If a source does not say a fact, leave it unknown. Do not write the opposite. A costume day is not "no parade" unless the source says there is no parade. Say what the source says, and say what it does not say.
+
+## Calendar rule
+- Before proposing or booking any time, read Shared/CALENDAR-RULES.md: the user is free except pick-up, drop-off and salah; a 🚸 event means no new scheduled item, only light work like email or reading. (Live profile carries a one-line version.)
