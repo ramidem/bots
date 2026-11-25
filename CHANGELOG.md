@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-26: Tech learning moved from Career to Engineering Lead (user). Three daily routines (notes evidence 06:15, python nuggets 06:30, flashcard sync 07:30) were recreated on Engineering Lead with the same times and full text; Career's copies are paused. Career's offerings and profile lines were updated. Career keeps interview practice and Bruntwork courses.
 - 2026-11-25: Front-door bot (user). Profile text updated to the live routines (check-ins, daily brief at 07:45, 13:45, 16:45 and 19:45, dedupe, brief archive, Sunday cleanup, marketplace watch), with the hourly nudge and Sunday weekend review listed as paused. The daily brief is back on; the hourly nudge stays off.
 - 2026-11-25: Every live bot (user). New "Notes vault rules" section in each fleet file and in each bot's own instruction file: edit only your own rows in the offerings file, follow the layout file, one fact one home (search before writing a note), never delete, merge or move notes without a yes, keep routines 15+ minutes apart. Each bot also gets one line on its offerings.
 - 2026-11-25: Parenting (user). Weekday school digest moved from 06:20 to 06:45 and the weekday noon mail save from 12:20 to 12:40, to keep 15 minutes from other bots' routines. Routine text updated to match; the profile text still shows the old times.
