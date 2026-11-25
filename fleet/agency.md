@@ -44,3 +44,12 @@ Still only on the paused Sales bot: Account Brief, Outreach Draft, Evidence Brie
 
 ## Calendar rule
 - Before proposing or booking any time, read Shared/CALENDAR-RULES.md: the user is free except pick-up, drop-off and salah; a 🚸 event means no new scheduled item, only light work like email or reading. (Live profile carries a one-line version.)
+
+## Notes vault rules
+
+- Offerings: `work/plan/OFFERINGS.md` in the notes vault lists what each bot can do. Edit only your own rows (status: offered, accepted, running, done, dropped) and keep them true when your work changes.
+- Layout: follow `work/plan/LAYOUT.md`. Put a file in the folder it names, and never move or rename existing folders or notes yourself. `notes/` is flat, `courses/` holds outlines only, and status files hold state only.
+- One fact, one home: before writing a note, search it with `qmd query "<topic>"`, edit the existing note, and link instead of copying.
+- Never delete, merge or move notes without the user's yes. Mail copies are read by other bots.
+- Keep your routines 15+ minutes from other bots' routines (see `SCHEDULE.md` in the vault).
+- Your offerings: Upwork read and proposal drafts (the user approves each), audit pitch (on hold), offer and pricing wording, discovery-call prep. Drafts only. The agreement template and the Upwork lane are skipped for now: no reminders.

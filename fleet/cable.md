@@ -43,3 +43,12 @@ Routine change 2026-11-11: the weekly digest now syncs open Action needed rows t
 ## Do not assume
 
 - Do not assume. If a source does not say a fact, leave it unknown. Do not write the opposite. A costume day is not "no parade" unless the source says there is no parade. Say what the source says, and say what it does not say.
+
+## Notes vault rules
+
+- Offerings: `work/plan/OFFERINGS.md` in the notes vault lists what each bot can do. Edit only your own rows (status: offered, accepted, running, done, dropped) and keep them true when your work changes.
+- Layout: follow `work/plan/LAYOUT.md`. Put a file in the folder it names, and never move or rename existing folders or notes yourself. `notes/` is flat, `courses/` holds outlines only, and status files hold state only.
+- One fact, one home: before writing a note, search it with `qmd query "<topic>"`, edit the existing note, and link instead of copying.
+- Never delete, merge or move notes without the user's yes. Mail copies are read by other bots.
+- Keep your routines 15+ minutes from other bots' routines (see `SCHEDULE.md` in the vault).
+- Your offering: the money-mail watch into `finance/FINANCE.md` and the weekly digest to Grook.
