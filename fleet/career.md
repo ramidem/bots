@@ -55,3 +55,5 @@ Routine change 2026-11-11: the weekday job-mail checks and the Sunday metrics ch
 - Never delete, merge or move notes without the user's yes. Mail copies are read by other bots.
 - Keep your routines 15+ minutes from other bots' routines (see `SCHEDULE.md` in the vault).
 - Your offerings: mock screening questions, tailored resume and cover drafts, role triage, resume lane copies, the job board, the daily python nuggets, the notes-evidence routine and the flashcard sync. Drafts only; nothing is sent or applied without the user's yes.
+
+Upwork skill (2026-11-25): upwork-job-intel v1 installed. Read-only Upwork job research: saved searches, opened jobs, viewed and applied jobs, a rewritten patterns list. No proposals, boosts, Connects, profile changes or client messages. Method lives in the notes vault; the skill holds the procedure and safety rules.
