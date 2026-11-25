@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-25: Front-door bot (user). New routine checkin-3x at 06:00, 12:00 and 19:00 Manila: one item to the user per run (due item, dedupe batch, unaccepted offering, next action). It replaces the daily brief and the hourly nudge, both already paused and staying off. Daily brief archive, Sunday cleanup and Sunday weekend review are unchanged. Nothing is deleted without the user's yes.
 - 2026-11-25: Sales deleted (user). The audit-folder link was removed first and the vault folder was checked (18 files). Four marketplace skills and the audit folder are archived in the shared skill-archive folder. The job sits on Agency.
 - 2026-11-24: Fleet models (user). Every live bot is on Claude Sonnet 5.5, medium effort. Medium is the highest. A bot already in a turn keeps the old model until that turn ends. Retired records are unchanged.
 - 2026-11-24: Agency (user). The lead-to-paid job, offers, and the full site-audit set now sit on Agency, with the one agency-folder task. Send, spend, and publish stay banned. Routines stay off. Sales is not deleted. The front door routes that work to Agency. Four marketplace drafts stay on Sales. No tool installs those onto another bot.
