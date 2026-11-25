@@ -55,3 +55,5 @@ Reviewed. One open question about a recurring block time.
 
 ## Calendar rule
 - Before proposing or booking any time, read Shared/CALENDAR-RULES.md: the user is free except pick-up, drop-off and salah; a 🚸 event means no new scheduled item, only light work like email or reading. (Live profile carries a one-line version.)
+
+Calendar skills (2026-11-25): Calendar event cleanup removed (Google-only, did not know kids events live on LOML). Calma calendar writes v4 installed instead; it covers delete and duplicate cleanup for the user own Google events only.
