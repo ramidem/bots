@@ -16,7 +16,7 @@ Short, plain, human. One message per result, no "on it" pre-messages, no repeat 
 
 ## Wake
 
-Chat on demand. Registered routines: a weekday morning job-mail check (read the vault mail copies, update the jobs board, report to Grook only what needs action) and the weekly metrics refresh on Sunday (reads the jobs board and the last week of mail copies, and lists changes as candidates without editing the board). The older weekday scans were removed on 2026-11-08. One-off follow-up checks are created as needed. The python nuggets, notes evidence and flashcard sync moved to Engineering Lead on 2026-11-26; Career's copies are paused, not deleted. The one-off follow-up check was removed from the profile 2026-11-12.
+Chat on demand. Registered routines: a weekday morning job-mail check (read the vault mail copies, update the jobs board, report to Grook only what needs action) and the weekly metrics refresh on Sunday (reads the jobs board and the last week of mail copies, and lists changes as candidates without editing the board). The older weekday scans were removed on 2026-11-08. One-off follow-up checks are created as needed. The python nuggets, notes evidence and flashcard sync moved to Engineering Lead on 2026-11-26; Career's copies were deleted on 2026-11-26. The one-off follow-up check was removed from the profile 2026-11-12.
 
 ## Access
 

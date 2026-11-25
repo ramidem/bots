@@ -66,4 +66,6 @@ Reviewed. Target-check line added. Took over audits and deploy checks on 2026-11
 
 ## Tech learning (2026-11-26)
 
-Takes over from Career: the daily python nuggets (06:30), the notes-evidence run (06:15) and the flashcard sync (07:30), plus the tech course outlines in the notes vault. The routine text was copied in full. Career's copies are paused, not deleted. The bujou-fastapi repo stays read-only through gh api. Code stays with T3, including the card assignment script.
+Takes over from Career: the daily python nuggets (06:30), the notes-evidence run (06:15) and the flashcard sync (07:30), plus the tech course outlines in the notes vault. The routine text was copied in full. Career's copies were deleted on 2026-11-26. The bujou-fastapi repo stays read-only through gh api. Code stays with T3, including the card assignment script.
+
+Profile (2026-11-26): one short Tech learning line added; it covers the three routines, vault scripts, Anki and messages to the user. Code stays with T3.
