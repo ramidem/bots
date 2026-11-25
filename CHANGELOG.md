@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-25: Dr Egghead (user). Daily skill review moved from 14:15 to 14:30. The routine-change step now also refreshes the schedule file in the notes vault. The record now lists the daily bot review as active and the daily records sync as paused, as they are live.
 - 2026-11-25: Career (user). Notes workflow build, skills kept in the notes vault (not the shared library): new bujou-notes-index (builds the generated notes index from evidence and gaps below each note's links section); the card sync gets a gap-card step (gap_cards.py, additive, once per gap); the card health check gets lint for evidence and gap format, and a stale or hand-edited index. The index note type is never a card source. Career creates the daily evidence routine after this. The card folder was backed up first.
 - 2026-11-25: Cable (user). The finance file moved to finance/FINANCE.md in the notes vault. books-watch is now v5, with paths only.
 - 2026-11-25: Career and Agency (user). Leftover paths from the vault move fixed, paths only: job-board-updates (v4) and cover-letter-drafting (v3) now say work/jobs, and the site-audit template note (v6) says work/agency.

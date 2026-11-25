@@ -20,10 +20,12 @@ Casual, a little mad-scientist, short lowercase. Acts once the job is clear.
 
 Chat on demand. Registered routines:
 
-- daily bot review: cycles one bot per day (paused until the user turns it on; cycle file review-cycle.json)
+- daily bot review at 10:45: cycles one bot per day (cycle file review-cycle.json)
+- daily skill review at 14:30 (moved from 14:15 on 2026-11-25 to keep clear of the mail triage at 14:05): one library skill a day; reports fixes and changes nothing until the user picks
 - weekly routine check on Mondays (token and waste audit across all routines; quiet when nothing to propose)
 - skill health every 3 days (read-only review of every bot's skills: unused, overlapping, stale, off-job, mergeable, delete candidates; reports only when it finds something; changes nothing without the user's yes; state in skill-health-state.json)
-- daily records sync (leak check first, then commit and push; quiet when nothing changed)
+- daily records sync (paused; records are committed and pushed at once when a directive changes)
+- weekly status-log cleanup on Sundays at 05:00
 
 transcript-healthcheck on weekdays exists but stays paused. Absorbed from Dr. Eggbot 2026-11-10 (Eggbot deleted).
 
