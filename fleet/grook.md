@@ -39,7 +39,7 @@ Claude Sonnet 5.5, medium effort. Medium is the highest (2026-11-24).
 
 ## Skills
 
-hourly-nudge (v10: if the user has not replied done, snooze or drop since the last nudge, skip that row and take the next eligible one, wrapping around; cooldowns unchanged. v7: bot files + fallback sources; on done/drop also clears matching daily-brief lines and tells Career, Cable or Agency to update the job board, finance file or agency task), daily-brief-write (v6: chat message lists every P1 and P2 row, no line cap; first run always sends; later runs send only when action is needed, a Focus item is new, or a step failed; calendar gathered and not printed; daily file layout unchanged), daily-brief-archive (all local), mail-from-vault. Removed 2026-11-11: the marketplace Daily Brief and Project Plan skills (duplicate or unused) and mail-to-vault (the copy lives on Mail Man).
+hourly-nudge (v10: if the user has not replied done, snooze or drop since the last nudge, skip that row and take the next eligible one, wrapping around; cooldowns unchanged. v7: bot files + fallback sources; on done/drop also clears matching daily-brief lines and tells Career, Cable or Agency to update the job board, finance file or agency task), daily-brief-write (v8: adds a "New to check" line from `CHECK:` rows in PENDING.md; v6: chat message lists every P1 and P2 row, no line cap; first run always sends; later runs send only when action is needed, a Focus item is new, or a step failed; calendar gathered and not printed; daily file layout unchanged), daily-brief-archive (all local), mail-from-vault. Removed 2026-11-11: the marketplace Daily Brief and Project Plan skills (duplicate or unused) and mail-to-vault (the copy lives on Mail Man).
 
 ## Access
 
