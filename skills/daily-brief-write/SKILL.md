@@ -9,7 +9,7 @@ description: Write Med's slim daily brief to bujou/DAILY.md (Header, Focus,
 
 # Daily brief write
 
-Write Med's Obsidian vault brief at `$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/bujou/DAILY.md`. Read-only except `DAILY.md` (and `PENDING.md`/`pending-cleared.json` when the morning refresh runs). Archiving is a separate skill: never archive here.
+Write Med's Obsidian vault brief at `$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/bujou/DAILY.md`. `PENDING.md` lives at `$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/bujou/PENDING.md` (the vault root), next to `DAILY.md`. Read-only except `DAILY.md` (and `PENDING.md`/`pending-cleared.json` when the morning refresh runs; `pending-cleared.json` stays in Grook's own workspace). Archiving is a separate skill: never archive here.
 
 Schedule (Manila): archive 05:40; brief 06:00, 12:00, 15:00, 18:00; hourly nudge 07:50 to 22:50. The archive runs first, so the 06:00 run starts from a fresh file.
 
