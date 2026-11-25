@@ -1,6 +1,6 @@
 # Sales
 
-Paused on 2026-11-24. Not deleted. The lead-to-paid job, offers, and lead website audits now sit on Agency. This bot does not take new work. Old audit files stay in its workspace until the owner says to move them. Reports to Grook.
+Deleted on 2026-11-25 by the user. The lead-to-paid job, offers, and lead website audits sit on Agency. Four marketplace skills and the audit folder are archived in the shared skill-archive folder.
 
 ## One job
 

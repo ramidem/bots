@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-25: Sales deleted (user). The audit-folder link was removed first and the vault folder was checked (18 files). Four marketplace skills and the audit folder are archived in the shared skill-archive folder. The job sits on Agency.
 - 2026-11-24: Fleet models (user). Every live bot is on Claude Sonnet 5.5, medium effort. Medium is the highest. A bot already in a turn keeps the old model until that turn ends. Retired records are unchanged.
 - 2026-11-24: Agency (user). The lead-to-paid job, offers, and the full site-audit set now sit on Agency, with the one agency-folder task. Send, spend, and publish stay banned. Routines stay off. Sales is not deleted. The front door routes that work to Agency. Four marketplace drafts stay on Sales. No tool installs those onto another bot.
 - 2026-11-24: Every live bot (user). If a source does not say a fact, leave it unknown. Do not write the opposite. A costume day is not "no parade" unless the source says there is no parade.
