@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-26: srs-card-upgrade v1 skill and routine (user via the CEO bot). Upgrades 10 terse ml-stack flashcards per run, in place, using each card's source note; first run is a preview the user approves. Skill installed on Engineering Lead and the CEO bot. Routine created on Engineering Lead, hourly at :15 from 09:15 to 21:15 Manila, off until the preview is approved. The separate ml-stack deck was removed the same day (cards live in 8 existing decks).
 - 2026-11-26: Front-door bot model (user). Ran on Opus 5.5 high for one task (an exam reviewer), then set back to Claude Sonnet 5.5, medium effort. Engineering Lead now keeps up the new ML stack deck and course.
 - 2026-11-26: Front-door bot profile (user). Wake text now lists the improve scan at 09:45. To stay under the 2000-character limit, the check-in item order, the dedupe detail and the hourly-nudge skill name were shortened in the profile; the fleet file keeps the full detail.
 - 2026-11-26: improve-scan v1 skill (user via the CEO bot). The scan procedure moved from the routine text into a skill. Open findings are not re-raised for 14 days, bot/skill/routine changes go to Dr Egghead with exact wording, the log keeps 14 days and is trimmed only with the user's yes, and a CHECK row counts only after 3 days. Installed on the CEO bot.
