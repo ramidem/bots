@@ -23,7 +23,7 @@ While `approved` is false the run writes no card. It picks the next 10 cards (st
 
 ## Run
 
-1. Read `VAULT/srs/wiki.md` and `VAULT/.claude/skills/bujou-srs/SKILL.md` for syntax (one blank line between cards; a code answer uses a fenced block labelled `flashcard` with `front:` and `back:`).
+1. Read `VAULT/srs/wiki.md` and `VAULT/.claude/skills/bujou-srs/SKILL.md` for syntax (one blank line between cards). For a code card use an inline `question::answer` card with inline code. Use a fenced `flashcard` block only after one has been verified to sync in this vault (no example exists yet).
 2. Stop and log one line in `srs/log.md` if `paused` is true, if `python3 -I VAULT/.claude/skills/bujou-srs-health/check.py --json` shows any error, or if an iCloud conflict file exists in `srs/` or `notes/`.
    Then check the push preconditions from step 5 of `bujou-srs-sync` (the `obsidian` CLI answers, Obsidian is running, AnkiConnect answers at `127.0.0.1:8765`). If one fails, end with `routine_no_update` and no message; the next hour retries. Check this before editing any card.
 3. Pick the next 10 cards not in `upgraded` or `skipped`, in file order (deck file, then position).

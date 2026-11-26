@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-26: srs-card-upgrade v2 and routine on (user via the CEO bot). The user approved the preview; batch 1 (10 cards in the node deck) synced. The routine on Engineering Lead is switched on (hourly at :15, 09:15 to 21:15 Manila). v2: code cards use inline question::answer cards with inline code; a fenced block only after one is verified to sync. Installed on Engineering Lead and the CEO bot.
 - 2026-11-26: srs-card-upgrade v1 skill and routine (user via the CEO bot). Upgrades 10 terse ml-stack flashcards per run, in place, using each card's source note; first run is a preview the user approves. Skill installed on Engineering Lead and the CEO bot. Routine created on Engineering Lead, hourly at :15 from 09:15 to 21:15 Manila, off until the preview is approved. The separate ml-stack deck was removed the same day (cards live in 8 existing decks).
 - 2026-11-26: Front-door bot model (user). Ran on Opus 5.5 high for one task (an exam reviewer), then set back to Claude Sonnet 5.5, medium effort. Engineering Lead now keeps up the new ML stack deck and course.
 - 2026-11-26: Front-door bot profile (user). Wake text now lists the improve scan at 09:45. To stay under the 2000-character limit, the check-in item order, the dedupe detail and the hourly-nudge skill name were shortened in the profile; the fleet file keeps the full detail.
