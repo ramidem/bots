@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-26: improve-scan v1 skill (user via the CEO bot). The scan procedure moved from the routine text into a skill. Open findings are not re-raised for 14 days, bot/skill/routine changes go to Dr Egghead with exact wording, the log keeps 14 days and is trimmed only with the user's yes, and a CHECK row counts only after 3 days. Installed on the CEO bot.
 - 2026-11-26: Front-door bot (user). New daily routine improve-scan at 09:45 Manila: a proactive scan against the user's top 3 goals. At most 3 findings a day, logged in the improve log; vault-only fixes done itself, bot work handed to the owner bot, bot/skill/routine changes sent to Dr Egghead, anything needing the user goes to the pending file. Each bot's Waiting on the user file is the intake, so bots do not message the front-door bot. Added to SCHEDULE.md.
 - 2026-11-26: PENDING.md moved to the notes vault root (user via the CEO bot). hourly-nudge v12 and daily-brief-write v9 name the vault path; pending-cleared.json stays in the CEO bot's own workspace. Installed on the CEO bot. The agency-daily-task skill and the output templates only name the file, so they are unchanged.
 - 2026-11-26: Engineering Lead python nuggets routine changed (user via the CEO bot). The outline tracks a status per day; a new nugget is written only when the newest written day is done, otherwise quiet. The routine no longer pushes, commits or edits bujou-fastapi and no longer asks the user to push. Schedule unchanged (06:30).
