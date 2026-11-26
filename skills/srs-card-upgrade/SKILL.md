@@ -9,13 +9,13 @@ Vault: `$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/bujou` (VAUL
 
 ## Scope (Med's explicit decision, 26 Nov)
 
-Only cards under headings `## [[ml-stack-*]]` in `srs/srs-{nodejs,typescript,frontend,cloud-devops,system-design,git,openai-api,algorithms}.md` (244 cards when filed). This is the one exception to `bujou-srs-sync`'s rule "never rewrite an existing card". Every other card stays untouched. Never touch `^q-` anchors or the `flashcards:` map. Never delete a card line, note or file; never touch `.obsidian/`; never send mail.
+Only cards under headings `## [[ml-stack-*]]` in these 10 deck files, in this order: `srs/srs-nodejs.md`, `srs-typescript.md`, `srs-frontend.md`, `srs-cloud-devops.md`, `srs-system-design.md`, `srs-sql.md`, `srs-design-principles.md`, `srs-git.md`, `srs-openai-api.md`, `srs-algorithms.md` (244 cards when filed; 48 of them were later moved from system-design into sql and design-principles with new anchors). This is the one exception to `bujou-srs-sync`'s rule "never rewrite an existing card". Every other card stays untouched. Never touch `^q-` anchors or the `flashcards:` map. Never delete a card line, note or file; never touch `.obsidian/`; never send mail.
 
 ## State: `VAULT/srs/upgrade-state.json`
 
 `{"version":1,"approved":false,"paused":false,"total":244,"upgraded":[],"skipped":[],"last_run":""}`
 
-A card is identified by its `^q-xxxx` anchor. If the file is missing, create it with `total` = the anchor count under the scoped headings. `skipped` holds cards whose note was too vague; they are not retried.
+A card is identified by its `^q-xxxx` anchor. If the file is missing, create it with `approved` false and `total` = the anchor count under the scoped headings. At the start of every run, recompute `total` as the number of `^q-` anchors under `## [[ml-stack-*]]` headings in the 10 files; a stored `total` can be out of date after cards move between decks. `skipped` holds cards whose note was too vague; they are not retried.
 
 ## First run is a preview
 
@@ -26,7 +26,7 @@ While `approved` is false the run writes no card. It picks the next 10 cards (st
 1. Read `VAULT/srs/wiki.md` and `VAULT/.claude/skills/bujou-srs/SKILL.md` for syntax (one blank line between cards). For a code card use an inline `question::answer` card with inline code. Use a fenced `flashcard` block only after one has been verified to sync in this vault (no example exists yet).
 2. Stop and log one line in `srs/log.md` if `paused` is true, if `python3 -I VAULT/.claude/skills/bujou-srs-health/check.py --json` shows any error, or if an iCloud conflict file exists in `srs/` or `notes/`.
    Then check the push preconditions from step 5 of `bujou-srs-sync` (the `obsidian` CLI answers, Obsidian is running, AnkiConnect answers at `127.0.0.1:8765`). If one fails, end with `routine_no_update` and no message; the next hour retries. Check this before editing any card.
-3. Pick the next 10 cards not in `upgraded` or `skipped`, in file order (deck file, then position).
+3. Pick the next 10 cards not in `upgraded` or `skipped`, in the file order listed in Scope (deck file, then position).
 4. For each card, read its whole source note (the `[[ml-stack-*]]` heading names it), then rewrite the card text only. Rewrite to one of:
    - scenario ("a subscriber acks then crashes mid-work, what happens and why?");
    - code (a 3-line snippet: what prints or what is wrong);
@@ -35,7 +35,7 @@ While `approved` is false the run writes no card. It picks the next 10 cards (st
    Add a one-line context to the question when it would not make sense alone in Anki. Use cloze only for a small term. Every fact must be in the source note. If the note is vague, skip the card, add it to `skipped`, and never invent. Med's voice: lowercase, short, bujou or remittance examples. One retrieval target per card, no answer leaked in the question, at most 4 lines. Keep the same question intent so Anki keeps the schedule. To merge two cards that test the same fact, edit one card's text and leave the other for a later run; never delete a card line.
 5. Run the health check again; no new errors (rephrase a duplicate-question error).
 6. Push to Anki with step 5 of `bujou-srs-sync` (its preconditions, one deck file at a time, `sync.log` check, then the AnkiConnect `sync` call). Success means `syncNote ok` with `failedOps` 0 and `okUpdates` equal to the changed cards of that file. 
-7. Whether the push succeeded or failed, append the changed anchors to `upgraded` (and any to `skipped`), set `last_run`, and add one line to `srs/log.md`: `- card upgrade: 10 ([[deck]] ...), total n/244`.
+7. Whether the push succeeded or failed, append the changed anchors to `upgraded` (and any to `skipped`), set `last_run`, and add one line to `srs/log.md`: `- card upgrade: 10 ([[deck]] ...), total n/<total>`.
 8. On failure (`failedOps` above 0, or Anki unavailable twice in a row) set `paused` true, report once to Grook, and stop. Never loop.
 9. When `upgraded` plus `skipped` equals `total`, set `paused` true and send Grook one line: "ml-stack cards upgraded". Otherwise end with `routine_no_update`.
 
