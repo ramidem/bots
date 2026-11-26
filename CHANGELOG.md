@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-26: Front-door bot model (user). Ran on Opus 5.5 high for one task (an exam reviewer), then set back to Claude Sonnet 5.5, medium effort. Engineering Lead now keeps up the new ML stack deck and course.
 - 2026-11-26: Front-door bot profile (user). Wake text now lists the improve scan at 09:45. To stay under the 2000-character limit, the check-in item order, the dedupe detail and the hourly-nudge skill name were shortened in the profile; the fleet file keeps the full detail.
 - 2026-11-26: improve-scan v1 skill (user via the CEO bot). The scan procedure moved from the routine text into a skill. Open findings are not re-raised for 14 days, bot/skill/routine changes go to Dr Egghead with exact wording, the log keeps 14 days and is trimmed only with the user's yes, and a CHECK row counts only after 3 days. Installed on the CEO bot.
 - 2026-11-26: Front-door bot (user). New daily routine improve-scan at 09:45 Manila: a proactive scan against the user's top 3 goals. At most 3 findings a day, logged in the improve log; vault-only fixes done itself, bot work handed to the owner bot, bot/skill/routine changes sent to Dr Egghead, anything needing the user goes to the pending file. Each bot's Waiting on the user file is the intake, so bots do not message the front-door bot. Added to SCHEDULE.md.
