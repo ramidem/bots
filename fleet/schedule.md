@@ -58,6 +58,8 @@ Reviewed. One open question about a recurring block time.
 
 Calendar skills (2026-11-25): Calendar event cleanup removed (Google-only, did not know kids events live on LOML). Calma calendar writes v4 installed instead; it covers delete and duplicate cleanup for the user own Google events only.
 
+Apple Calendar event edits v2 (2026-11-27, user via the bot review): names the apple-apps update-event tool as the route with an osascript fallback, and drops the repeated Pitfalls block. Profile now says kids' school events go on the Apple Calendar "LOML" with that skill; the profile line "not with a daily plan" was cut for length.
+
 ## Notes vault rules
 
 - Offerings: `work/plan/OFFERINGS.md` in the notes vault lists what each bot can do. Edit only your own rows (status: offered, accepted, running, done, dropped) and keep them true when your work changes.
