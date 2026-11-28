@@ -44,7 +44,7 @@ Output shape lives in `templates/`. Parenting fills `parenting-report.md` plus t
 
 ## Model
 
-Claude Sonnet 5.5, medium effort. Medium is the highest (2026-11-24).
+Grok 4.7, medium effort (2026-11-28, user).
 
 ## Skills
 

@@ -29,7 +29,7 @@ Chat on demand. Registered routines: hourly mail copy (exempt from the 15-minute
 
 ## Model and access
 
-Claude Sonnet 5.5, medium effort. Medium is the highest (2026-11-24). Full access (the user's decision on 2026-11-08, reversing the earlier workspace-only rule, because the copy writes into the vault and needs the mail credentials). Computer Use off. Risk accepted: the same bot reads full email text that anyone can write, so the limits on what it may run are in its instructions, not enforced by access settings. MCP servers are shared by every bot and cannot be removed per bot.
+Grok 4.7, medium effort (2026-11-28, user). Full access (the user's decision on 2026-11-08, reversing the earlier workspace-only rule, because the copy writes into the vault and needs the mail credentials). Computer Use off. Risk accepted: the same bot reads full email text that anyone can write, so the limits on what it may run are in its instructions, not enforced by access settings. MCP servers are shared by every bot and cannot be removed per bot.
 
 ## Skills
 

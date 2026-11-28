@@ -35,7 +35,7 @@ Chat on demand. Registered routines: improve scan daily at 09:45 Manila (added 2
 
 ## Model
 
-Claude Sonnet 5.5, medium effort. Medium is the highest (2026-11-24).
+Grok 4.7, medium effort (2026-11-28, user).
 
 ## Skills
 

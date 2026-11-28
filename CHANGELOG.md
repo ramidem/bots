@@ -4,6 +4,7 @@ This file records changes to the fleet records.
 
 ## 2026-11
 
+- 2026-11-28: Whole fleet (user). Every live bot set to Grok 4.7, medium effort (was Claude Sonnet 5.5, medium). Cable and Dr Egghead switch when their current turn ends.
 - 2026-11-27: Schedule: apple-calendar-event-edits v2 (names the apple-apps update-event route plus osascript fallback, cuts Pitfalls); profile now says kids' school events go on the Apple Calendar LOML with that skill (user via the bot review).
 - 2026-11-27: srs-card-upgrade v4 (user via Engineering Lead). New docs-link step: an upgraded ml-stack card gets one last line `docs: <url>` from its source note's sources list (never invented; none when the list is empty). Already-upgraded cards get a docs-only pass first, tracked in `docs_checked`. A `priority_deck` state field lets the user pick which deck goes first; otherwise file order. Scope already listed the sql and design-principles decks since v3. Installed on Engineering Lead and the CEO bot.
 - 2026-11-26: srs-card-upgrade v3 (user via the CEO bot). Two new Anki decks, sql and design-principles, were split out of system-design (48 cards moved, new anchors). The skill scope now covers 10 deck files in a fixed order and recounts the total from anchors every run. Installed on Engineering Lead and the CEO bot; the routine text no longer says 8 files.
